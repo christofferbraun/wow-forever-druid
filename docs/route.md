@@ -85,6 +85,7 @@ Grab the **Camp Taurajo** flight path on the way through even if you do not ques
 - **Plainstriders and raptors hit harder than they look.** This is where [multi-mob discipline](rotations.md#multi-mob) starts mattering. Pull with Moonfire at max range so you do not aggro a second one.
 - **The Crossroads is contested on PvP realms.** If you are on one, expect interruptions.
 - **Cook your meat.** The Barrens is wall-to-wall food mobs, and cooked food is +5% kill XP while well fed 🔶.
+- **Three [library books](gear.md#books-in-your-zones-) are in the Barrens** — Sludge Fen (56.3, 8.8), Ratchet (62.7, 36.3), and the cave at Lushwater Oasis (52.8, 54.7). Ten books buys an ilvl-25 neck with no level requirement; twenty buys a +6 Int / +10 spell power ring. Pick them up as you pass.
 
 ---
 
@@ -108,10 +109,11 @@ Once the Barrens runs dry around 17–18:
 
 1. **Never travel empty.** Accept every quest in a hub before you leave it, even the ones you will not finish — turn-in radius overlaps more than you expect.
 2. **Batch your turn-ins.** Thunder Bluff trips should always bundle: trainer + Rahauro + turn-ins + bank + hearth reset.
-3. **Train on every single level.** Rank upgrades to Rejuvenation and Regrowth are your mana budget. A druid two ranks behind on heals feels like a broken class.
-4. **Pick up every flight path you walk past**, even in zones you are not questing in. Paths are only purchasable at the node.
-5. **Log out in an inn or at a [campfire](forever-vs-classic.md#3-rested-xp-moved-outdoors--campfires)** so rested XP is always accruing.
-6. **Do dungeons once, with all quests in hand.** Never twice for XP — [the kill XP is not there anymore](forever-vs-classic.md#1-dungeon-xp-is-inverted--quests-are-the-payday).
+3. **Check the auction house for a caster staff** every time you are in Thunder Bluff or Ratchet. Weapons carry spell damage and healing from level 10 in Forever ✅, so your staff is your biggest slot — see [Gear](gear.md#weapons--your-biggest-slot).
+4. **Train on every single level.** Rank upgrades to Rejuvenation and Regrowth are your mana budget. A druid two ranks behind on heals feels like a broken class.
+5. **Pick up every flight path you walk past**, even in zones you are not questing in. Paths are only purchasable at the node.
+6. **Log out in an inn or at a [campfire](forever-vs-classic.md#3-rested-xp-moved-outdoors--campfires)** so rested XP is always accruing.
+7. **Do dungeons once, with all quests in hand.** Never twice for XP — [the kill XP is not there anymore](forever-vs-classic.md#1-dungeon-xp-is-inverted--quests-are-the-payday).
 
 ---
 

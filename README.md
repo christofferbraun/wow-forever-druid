@@ -16,6 +16,7 @@ Personal leveling notes for a **Horde Tauren Restoration Druid** in *World of Wa
 | Where to walk next | **[Route: Mulgore → Barrens](docs/route.md)** |
 | The Ragefire Chasm quest pickup run | **[Dungeons](docs/dungeons.md#ragefire-chasm)** |
 | Can I really level as Resto? | **[Talents](docs/talents.md#the-honest-answer-on-solo-resto)** |
+| What gear should I chase | **[Gear](docs/gear.md)** |
 | What's different from Classic | **[Forever vs Classic](docs/forever-vs-classic.md)** |
 | What do I get at level N | **[Breakpoints](docs/breakpoints.md)** |
 
@@ -30,8 +31,9 @@ Personal leveling notes for a **Horde Tauren Restoration Druid** in *World of Wa
 5. **[Route: Mulgore → Barrens](docs/route.md)** — hubs, level bands, and the order to do them in.
 6. **[Travel](docs/travel.md)** — Teleport: Moonglade, the free flight home, and hearthstone discipline.
 7. **[Dungeons](docs/dungeons.md)** — Ragefire Chasm in full, then the ladder to 30 and beyond.
-8. **[Breakpoints](docs/breakpoints.md)** — a level-by-level table of what unlocks.
-9. **[Open Questions & Changelog](docs/open-questions.md)** — what still needs verifying in-game.
+8. **[Gear](docs/gear.md)** — quest rewards and dungeon drops for 1–20, the library-book jewellery, and how the sources compare.
+9. **[Breakpoints](docs/breakpoints.md)** — a level-by-level table of what unlocks.
+10. **[Open Questions & Changelog](docs/open-questions.md)** — what still needs verifying in-game.
 
 ---
 
@@ -49,6 +51,7 @@ Bear Form         →  melee it down; Thorns + Moonfire + Rejuv all tick through
 ```
 
 **Panic:** Bear Form → survive → shift out → Rejuvenation → Healing Touch
+**Gear rule:** healing gear is now leveling gear — bonus healing grants ⅓ its value as spell damage. [Details](docs/gear.md#the-one-change-that-matters)
 **From 30:** Nature's Swiftness + Healing Touch = instant full heal
 
 Full detail and the reasoning: **[Rotations](docs/rotations.md)**.

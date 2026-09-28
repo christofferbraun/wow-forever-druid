@@ -1,6 +1,6 @@
 # Dungeons
 
-[← Index](../README.md) · Prev: [Travel](travel.md) · Next: [Breakpoints](breakpoints.md)
+[← Index](../README.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)
 
 > **Read this first:** in Forever, dungeon **mob kill XP is way down** and dungeon **quest XP is much higher** 🔶. Walking into a dungeon without its quests wastes the run. Every section below is organised around collecting the quests *before* you go in.
 
@@ -66,7 +66,7 @@ Do this as one trip, ideally around level 13–15, before you look for a group.
 ```
 
 **On the Undercity trip.** It is a real detour — zeppelin across to the Eastern Kingdoms and back. It is worth it, because the whole point of Forever's XP change is that these quests are the reward. Two ways to soften it:
-- Bundle it: do Undercity once and pick up the Tirisfal flight paths for [Ruins of Lordaeron](#the-ladder) and Scarlet Monastery later.
+- Bundle it: do Undercity once and pick up the Tirisfal flight paths for [Ruins of Lordaeron](#the-ladder) and Scarlet Monastery later. Undercity is also where the **[library book turn-in](gear.md#library-books--the-best-gear-per-effort-in-the-game)** lives — Owen Thadd, Magic Quarter. Grab the Brill book on your way through Tirisfal.
 - Remember you have [Teleport: Moonglade](travel.md#the-free-flight-home--bunthen-plainswind) as a free ride back to Kalimdor if you end up stranded without gold.
 
 ### Healing RFC as a level 13–16 Resto druid
@@ -80,6 +80,8 @@ You have Rejuvenation, Regrowth, and Healing Touch. That is enough. See [dungeon
 - **Drink after every pull.** No Innervate until 40; mana is your only real constraint.
 - **You are also a hybrid.** When nothing needs healing, Moonfire the boss.
 
+**Loot:** three of the six quests reward gear you get to choose from, and Jergosh/Taragaman drop caster cloth at 30–36%. See [Gear → Ragefire Chasm](gear.md#ragefire-chasm-rec-13).
+
 ---
 
 ## The ladder
@@ -92,10 +94,10 @@ Recommended levels, in order. 🔶 Cross-checked across two Forever sources; ❓
 |---|---|---|---|
 | **13** | **Ragefire Chasm** | Orgrimmar | Start here |
 | 13 | Hall of Thanes | Ironforge | **New** · Alliance-focused |
-| **15** | **Ruins of Lordaeron** | Tirisfal Glades | **New** · **Horde-focused** — your second dungeon |
+| **15** | **Ruins of Lordaeron** | Tirisfal Glades | **New** · **Horde-focused** · 6 bosses, **10 quests (6 Horde)** 🔶 — your second dungeon |
 | 16 | The Deadmines | Westfall | Alliance side, awkward for Horde |
-| **17** | **Wailing Caverns** | The Barrens | Right where you are questing |
-| **18** | **Shadowfang Keep** | Silverpine Forest | Horde-accessible, great gear |
+| **17** | **Wailing Caverns** | The Barrens | Right where you are questing · **[Living Root](gear.md#weapons--your-biggest-slot)** drops here |
+| **18** | **Shadowfang Keep** | Silverpine Forest | Horde-accessible · [Odo's Ley Staff, Ghostly Mantle](gear.md#shadowfang-keep-rec-18) |
 | **22** | **Blackfathom Deeps** | Ashenvale | Pairs with Ashenvale questing |
 | 23 | Stormwind Stockade | Stormwind | Alliance city — skip |
 | **24** | **Razorfen Kraul** | The Barrens | Southern Barrens, near Camp Taurajo |
@@ -103,6 +105,8 @@ Recommended levels, in order. 🔶 Cross-checked across two Forever sources; ❓
 | 26 | Excavation Site | Wetlands | **New** · ❓ faction access unconfirmed |
 | 28 | City of Dalaran | Alterac Mountains | **New** · ❓ faction access unconfirmed |
 | **30** | **Scarlet Monastery** (4 wings) | Tirisfal Glades | Horde-convenient, four wings, huge quest XP |
+
+**Drops and quest rewards for each of these are in [Gear](gear.md#dungeon-drops-to-watch-for).**
 
 ### The Horde-convenient path
 
@@ -154,4 +158,4 @@ Forever adds **9 new dungeons** total 🔶 alongside the returning Classic set.
 
 ---
 
-[← Index](../README.md) · Prev: [Travel](travel.md) · Next: [Breakpoints](breakpoints.md)
+[← Index](../README.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)

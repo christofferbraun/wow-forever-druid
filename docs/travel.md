@@ -95,6 +95,8 @@ Buy every path you walk past. Prices are trivial and you cannot buy them remotel
 
 **For the Undercity RFC quest** you need to cross to the Eastern Kingdoms: Orgrimmar → zeppelin tower → Undercity. Pick up the **Undercity** flight path while you are there, and the **Tirisfal** paths if you plan to run [Ruins of Lordaeron](dungeons.md#the-ladder) or Scarlet Monastery later.
 
+**Make that one trip do four jobs:** Varimathras' RFC quest, the **[library book turn-in](gear.md#library-books--the-best-gear-per-effort-in-the-game)** with Owen Thadd in the Magic Quarter (73.4, 33.0), the Brill book in Tirisfal (59.4, 52.3), and the flight paths. Undercity is the highest-value detour in your level range.
+
 ---
 
 ## Travel Form
