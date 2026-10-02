@@ -1,0 +1,190 @@
+/* ---------------------------------------------------------------------------
+   Tables
+
+   Material renders tables as `display: inline-block` with `overflow: auto` at
+   every screen width (its only `display: table` rule is inside @media print),
+   so any table wider than the viewport scrolls sideways. Make them real block
+   tables that wrap instead. This file loads after the theme stylesheet, so
+   these equal-specificity rules win.
+   --------------------------------------------------------------------------- */
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  table-layout: auto;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  /* Break inside a long word only if there is no other way to fit. */
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* Zone name under a dungeon name in the summary table. */
+.t-sub {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9em;
+}
+
+/* Keep the leading level column from taking width it does not need. */
+@media screen and (max-width: 44.9em) {
+  .md-typeset table:not([class]) th:first-child,
+  .md-typeset table:not([class]) td:first-child {
+    width: 2.2rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Quest cards
+
+   One card per quest. A definition list gives label/value pairs that sit side
+   by side when there is room and stack when there is not, so nothing ever
+   needs horizontal scrolling.
+   --------------------------------------------------------------------------- */
+
+.md-typeset .quest {
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 0.1rem;
+  background: var(--md-code-bg-color);
+  padding: 0.6rem 0.8rem;
+  margin: 0.7rem 0;
+}
+
+.md-typeset .quest > :first-child {
+  margin-top: 0;
+}
+
+.md-typeset .quest > :last-child {
+  margin-bottom: 0;
+}
+
+.md-typeset .q-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.45rem;
+  margin: 0 0 0.25rem;
+  line-height: 1.35;
+}
+
+.md-typeset .q-num {
+  flex: 0 0 auto;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  padding: 0 0.2rem;
+  border-radius: 0.6rem;
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color, #fff);
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1.15rem;
+  text-align: center;
+}
+
+.md-typeset .q-name {
+  font-weight: 700;
+  /* Take the remaining width so the level badge wraps rather than overflowing. */
+  flex: 1 1 8rem;
+}
+
+.md-typeset .q-lvl {
+  flex: 0 0 auto;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+.md-typeset .q-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin: 0.25rem 0;
+}
+
+.md-typeset .q-tags span {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+  padding: 0.02rem 0.4rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.62rem;
+  white-space: nowrap;
+}
+
+.md-typeset .q-obj {
+  margin: 0.3rem 0;
+  font-size: 0.74rem;
+}
+
+.md-typeset .quest dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.15rem 0.7rem;
+  margin: 0.45rem 0 0;
+}
+
+.md-typeset .quest dt {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 0.08rem;
+}
+
+.md-typeset .quest dd {
+  margin: 0;
+  font-size: 0.76rem;
+  min-width: 0;
+}
+
+.md-typeset .quest dd strong {
+  display: block;
+}
+
+.md-typeset .q-where {
+  display: block;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+}
+
+.md-typeset .quest code.q-way {
+  display: inline-block;
+  margin-top: 0.15rem;
+  padding: 0.05rem 0.3rem;
+  font-size: 0.68rem;
+  /* A long zone name must wrap rather than widen the page. */
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+/* Stack the labels above their values once the two-column grid stops fitting. */
+@media screen and (max-width: 44.9em) {
+  .md-typeset .quest {
+    padding: 0.5rem 0.6rem;
+  }
+  .md-typeset .quest dl {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .md-typeset .quest dt {
+    margin-top: 0.4rem;
+  }
+  .md-typeset .quest dt:first-of-type {
+    margin-top: 0;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Code blocks
+
+   The pickup routes are preformatted and must not widen the page either.
+   --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 44.9em) {
+  .md-typeset pre > code {
+    font-size: 0.62rem;
+  }
+}

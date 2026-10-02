@@ -27,19 +27,19 @@ Coordinates are community-sourced from Forever databases as of 2026-10-02 🔶. 
 
 ## At a glance
 
-**To collect** = quests you can pick up before you enter. **Starts inside** = quests granted by an item or NPC within the dungeon, which you cannot get in advance. Class-only quests and anything above level 30 are excluded from both counts.
+**Collect** = quests you can pick up before you enter. **Inside** = quests granted by an item or NPC within the dungeon, which you cannot get in advance. Class-only quests and anything above level 30 are excluded from both counts.
 
-| Rec. | Dungeon | Zone | To collect | Starts inside | Entrance |
-|---|---|---|---|---|---|
-| 13 | **[Ragefire Chasm](#ragefire-chasm)** | Orgrimmar | 5 | 1 | `/way Orgrimmar 52.8 49.6` |
-| 15 | **[Ruins of Lordaeron](#ruins-of-lordaeron)** | Undercity | 4 | 2 | Undercity ❓ |
-| 17 | **[Wailing Caverns](#wailing-caverns)** | The Barrens | 6 | 1 | `/way The Barrens 46 36.3` |
-| 18 | **[Shadowfang Keep](#shadowfang-keep)** | Silverpine Forest | 3 | 0 | `/way Silverpine Forest 44.5 68` |
-| 22 | **[Blackfathom Deeps](#blackfathom-deeps)** | Ashenvale | 2 | 3 | `/way Ashenvale 14.5 14.6` |
-| 24 | **[Razorfen Kraul](#razorfen-kraul)** | The Barrens | 3 | 2 | `/way The Barrens 43 90` |
-| 26 | **[Excavation Site: Wetlands](#excavation-site-wetlands)** | Wetlands | 4 | 1 | `/way Wetlands 53.2 65.8` |
-| 28 | **[City of Dalaran](#city-of-dalaran)** | Alterac Mountains | — | — | Alterac Mountains ❓ |
-| 30 | **[Scarlet Monastery](#scarlet-monastery)** | Tirisfal Glades | 2 | 1 | `/way Tirisfal Glades 85 30` |
+| Lvl | Dungeon | Collect | Inside |
+|---|---|---|---|
+| 13 | **[Ragefire Chasm](#ragefire-chasm)**<br><span class="t-sub">Orgrimmar</span> | 5 | 1 |
+| 15 | **[Ruins of Lordaeron](#ruins-of-lordaeron)**<br><span class="t-sub">Undercity</span> | 4 | 2 |
+| 17 | **[Wailing Caverns](#wailing-caverns)**<br><span class="t-sub">The Barrens</span> | 6 | 1 |
+| 18 | **[Shadowfang Keep](#shadowfang-keep)**<br><span class="t-sub">Silverpine Forest</span> | 3 | 0 |
+| 22 | **[Blackfathom Deeps](#blackfathom-deeps)**<br><span class="t-sub">Ashenvale</span> | 2 | 3 |
+| 24 | **[Razorfen Kraul](#razorfen-kraul)**<br><span class="t-sub">The Barrens</span> | 3 | 2 |
+| 26 | **[Excavation Site: Wetlands](#excavation-site-wetlands)**<br><span class="t-sub">Wetlands</span> | 4 | 1 |
+| 28 | **[City of Dalaran](#city-of-dalaran)**<br><span class="t-sub">Alterac Mountains</span> | — | — |
+| 30 | **[Scarlet Monastery](#scarlet-monastery)**<br><span class="t-sub">Tirisfal Glades</span> | 2 | 1 |
 
 ---
 
@@ -59,36 +59,93 @@ Your first dungeon and the Horde counterpart to Alliance's Hall of Thanes. Entra
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **Searching for the Lost Satchel**<br>*chain: 1 of 2*<br>Find the Grimtotem Satchel inside the chasm. | 9 | **Rahauro**<br>*The Elder Rise*<br>`/way Thunder Bluff 70.6 29.6` | **Maur Grimtotem**<br>*Inside Ragefire Chasm* |
-| 2 | **Returning the Lost Satchel**<br>*chain: 2 of 2*<br>Carry the satchel back to Thunder Bluff. Granted by the satchel itself - you cannot pick this up in advance. | 9 | **Grimtotem Satchel (item, off Maur Grimtotem)**<br>*Inside Ragefire Chasm* | **Rahauro**<br>*The Elder Rise*<br>`/way Thunder Bluff 70.6 29.6` |
-| 3 | **Testing an Enemy's Strength**<br>Kill Oggleflint. | 9 | **Rahauro**<br>*The Elder Rise*<br>`/way Thunder Bluff 70.6 29.6` | **Rahauro**<br>*The Elder Rise*<br>`/way Thunder Bluff 70.6 29.6` |
-| 4 | **Slaying the Beast**<br>Kill Taragaman the Hungerer. | 9 | **Neeru Fireblade**<br>*The Cleft of Shadow*<br>`/way Orgrimmar 49.6 50.6` | **Neeru Fireblade**<br>*The Cleft of Shadow*<br>`/way Orgrimmar 49.6 50.6` |
-| 5 | **Hidden Enemies**<br>*chain: part of a longer Shadow Council chain*<br>Shadow Council investigation. Requires earlier chain steps. | 9 | **Thrall**<br>*The Valley of Wisdom*<br>`/way Orgrimmar 32 37.8` | **Thrall**<br>*The Valley of Wisdom*<br>`/way Orgrimmar 32 37.8` |
-| 6 | **The Power to Destroy...**<br>Kill Jergosh the Invoker. | 9 | **Varimathras**<br>*Royal Quarter*<br>`/way Undercity 56.6 92.6` | **Varimathras**<br>*Royal Quarter*<br>`/way Undercity 56.6 92.6` |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">Searching for the Lost Satchel</span><span class="q-lvl">Level 9</span></p>
+<p class="q-tags"><span>chain: 1 of 2</span></p>
+<p class="q-obj">Find the Grimtotem Satchel inside the chasm.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Rahauro</strong><span class="q-where">The Elder Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 70.6 29.6</code></dd>
+<dt>Turn in</dt><dd><strong>Maur Grimtotem</strong><span class="q-where">Inside Ragefire Chasm</span></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Returning the Lost Satchel</span><span class="q-lvl">Level 9</span></p>
+<p class="q-tags"><span>chain: 2 of 2</span></p>
+<p class="q-obj">Carry the satchel back to Thunder Bluff. Granted by the satchel itself - you cannot pick this up in advance.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Grimtotem Satchel (item, off Maur Grimtotem)</strong><span class="q-where">Inside Ragefire Chasm</span></dd>
+<dt>Turn in</dt><dd><strong>Rahauro</strong><span class="q-where">The Elder Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 70.6 29.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">Testing an Enemy's Strength</span><span class="q-lvl">Level 9</span></p>
+<p class="q-obj">Kill Oggleflint.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Rahauro</strong><span class="q-where">The Elder Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 70.6 29.6</code></dd>
+<dt>Turn in</dt><dd><strong>Rahauro</strong><span class="q-where">The Elder Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 70.6 29.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">Slaying the Beast</span><span class="q-lvl">Level 9</span></p>
+<p class="q-obj">Kill Taragaman the Hungerer.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Neeru Fireblade</strong><span class="q-where">The Cleft of Shadow, Orgrimmar</span><code class="q-way">/way Orgrimmar 49.6 50.6</code></dd>
+<dt>Turn in</dt><dd><strong>Neeru Fireblade</strong><span class="q-where">The Cleft of Shadow, Orgrimmar</span><code class="q-way">/way Orgrimmar 49.6 50.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">5</span><span class="q-name">Hidden Enemies</span><span class="q-lvl">Level 9</span></p>
+<p class="q-tags"><span>chain: part of a longer Shadow Council chain</span></p>
+<p class="q-obj">Shadow Council investigation. Requires earlier chain steps.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Thrall</strong><span class="q-where">The Valley of Wisdom, Orgrimmar</span><code class="q-way">/way Orgrimmar 32 37.8</code></dd>
+<dt>Turn in</dt><dd><strong>Thrall</strong><span class="q-where">The Valley of Wisdom, Orgrimmar</span><code class="q-way">/way Orgrimmar 32 37.8</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">6</span><span class="q-name">The Power to Destroy...</span><span class="q-lvl">Level 9</span></p>
+<p class="q-obj">Kill Jergosh the Invoker.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Varimathras</strong><span class="q-where">Royal Quarter, Undercity</span><code class="q-way">/way Undercity 56.6 92.6</code></dd>
+<dt>Turn in</dt><dd><strong>Varimathras</strong><span class="q-where">Royal Quarter, Undercity</span><code class="q-way">/way Undercity 56.6 92.6</code></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **5 to collect before you go.** Grouped by stop:
 
-```
-1. Thunder Bluff
-      Rahauro  -  Searching for the Lost Satchel
-      /way Thunder Bluff 70.6 29.6
-      Rahauro  -  Testing an Enemy's Strength
-      /way Thunder Bluff 70.6 29.6
-2. Orgrimmar
-      Neeru Fireblade  -  Slaying the Beast
-      /way Orgrimmar 49.6 50.6
-      Thrall  -  Hidden Enemies
-      /way Orgrimmar 32 37.8
-3. Undercity
-      Varimathras  -  The Power to Destroy...
-      /way Undercity 56.6 92.6
-4. Orgrimmar  -  dungeon entrance
-      /way Orgrimmar 52.8 49.6
-```
+**1. Thunder Bluff**
+
+- **Rahauro** — The Elder Rise
+    - Searching for the Lost Satchel
+    - Testing an Enemy's Strength
+    - `/way Thunder Bluff 70.6 29.6`
+
+**2. Orgrimmar**
+
+- **Neeru Fireblade** — The Cleft of Shadow
+    - Slaying the Beast
+    - `/way Orgrimmar 49.6 50.6`
+- **Thrall** — The Valley of Wisdom
+    - Hidden Enemies
+    - `/way Orgrimmar 32 37.8`
+
+**3. Undercity**
+
+- **Varimathras** — Royal Quarter
+    - The Power to Destroy...
+    - `/way Undercity 56.6 92.6`
+
+**4. Orgrimmar** — dungeon entrance
+
+- `/way Orgrimmar 52.8 49.6`
 
 **1 quest starts inside** and cannot be picked up in advance:
 
@@ -112,32 +169,81 @@ New in Forever and Horde-focused. Six Horde quests makes this the highest quest-
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **The Wrath of Rath'mael** | 15 | **Deathguard Kristof**<br>*Profession camp southeast of Brill*<br>`/way Tirisfal Glades 65.2 60.1` | **Deathguard Kristof**<br>*Profession camp southeast of Brill*<br>`/way Tirisfal Glades 65.2 60.1` |
-| 2 | **Light's Justice** | 15 | **Morbin Lightbane**<br>*Royal Quarter*<br>`/way Undercity 58.3 89.7` | **Morbin Lightbane**<br>*Royal Quarter*<br>`/way Undercity 58.3 89.7` |
-| 3 | **A Frightened Request** | 15 | **Tabitha Heartweaver**<br>*The Sepulcher*<br>`/way Silverpine Forest 44.5 43` | **Tabitha Heartweaver**<br>*The Sepulcher*<br>`/way Silverpine Forest 44.5 43` |
-| 4 | **The New Plague** | 16 | **Theodore Griffs**<br>*The Apothecarium*<br>`/way Undercity 46.5 71.6` | **Theodore Griffs**<br>*The Apothecarium*<br>`/way Undercity 46.5 71.6` |
-| 5 | **Unending Torment**<br>Starts from the Abominable Head, dropped inside. Cannot be picked up in advance. | 16 | **Abominable Head (item drop)**<br>*Inside Ruins of Lordaeron* | **Master Apothecary Faranell**<br>*The Apothecarium*<br>`/way Undercity 48.6 69.6` |
-| 6 | **Crest of Lordaeron**<br>Starts from an item found inside. Cannot be picked up in advance. | 16 | **Item found inside**<br>*Inside Ruins of Lordaeron* | **Oran Snakewrithe**<br>*Magic Quarter*<br>`/way Undercity 73.6 32.6` |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">The Wrath of Rath'mael</span><span class="q-lvl">Level 15</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Deathguard Kristof</strong><span class="q-where">Profession camp southeast of Brill, Tirisfal Glades</span><code class="q-way">/way Tirisfal Glades 65.2 60.1</code></dd>
+<dt>Turn in</dt><dd><strong>Deathguard Kristof</strong><span class="q-where">Profession camp southeast of Brill, Tirisfal Glades</span><code class="q-way">/way Tirisfal Glades 65.2 60.1</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Light's Justice</span><span class="q-lvl">Level 15</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Morbin Lightbane</strong><span class="q-where">Royal Quarter, Undercity</span><code class="q-way">/way Undercity 58.3 89.7</code></dd>
+<dt>Turn in</dt><dd><strong>Morbin Lightbane</strong><span class="q-where">Royal Quarter, Undercity</span><code class="q-way">/way Undercity 58.3 89.7</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">A Frightened Request</span><span class="q-lvl">Level 15</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Tabitha Heartweaver</strong><span class="q-where">The Sepulcher, Silverpine Forest</span><code class="q-way">/way Silverpine Forest 44.5 43</code></dd>
+<dt>Turn in</dt><dd><strong>Tabitha Heartweaver</strong><span class="q-where">The Sepulcher, Silverpine Forest</span><code class="q-way">/way Silverpine Forest 44.5 43</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">The New Plague</span><span class="q-lvl">Level 16</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Theodore Griffs</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 46.5 71.6</code></dd>
+<dt>Turn in</dt><dd><strong>Theodore Griffs</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 46.5 71.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">5</span><span class="q-name">Unending Torment</span><span class="q-lvl">Level 16</span></p>
+<p class="q-obj">Starts from the Abominable Head, dropped inside. Cannot be picked up in advance.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Abominable Head (item drop)</strong><span class="q-where">Inside Ruins of Lordaeron</span></dd>
+<dt>Turn in</dt><dd><strong>Master Apothecary Faranell</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 48.6 69.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">6</span><span class="q-name">Crest of Lordaeron</span><span class="q-lvl">Level 16</span></p>
+<p class="q-obj">Starts from an item found inside. Cannot be picked up in advance.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Item found inside</strong><span class="q-where">Inside Ruins of Lordaeron</span></dd>
+<dt>Turn in</dt><dd><strong>Oran Snakewrithe</strong><span class="q-where">Magic Quarter, Undercity</span><code class="q-way">/way Undercity 73.6 32.6</code></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **4 to collect before you go.** Grouped by stop:
 
-```
-1. Tirisfal Glades
-      Deathguard Kristof  -  The Wrath of Rath'mael
-      /way Tirisfal Glades 65.2 60.1
-2. Undercity
-      Morbin Lightbane  -  Light's Justice
-      /way Undercity 58.3 89.7
-      Theodore Griffs  -  The New Plague
-      /way Undercity 46.5 71.6
-3. Silverpine Forest
-      Tabitha Heartweaver  -  A Frightened Request
-      /way Silverpine Forest 44.5 43
-```
+**1. Tirisfal Glades**
+
+- **Deathguard Kristof** — Profession camp southeast of Brill
+    - The Wrath of Rath'mael
+    - `/way Tirisfal Glades 65.2 60.1`
+
+**2. Undercity**
+
+- **Morbin Lightbane** — Royal Quarter
+    - Light's Justice
+    - `/way Undercity 58.3 89.7`
+- **Theodore Griffs** — The Apothecarium
+    - The New Plague
+    - `/way Undercity 46.5 71.6`
+
+**3. Silverpine Forest**
+
+- **Tabitha Heartweaver** — The Sepulcher
+    - A Frightened Request
+    - `/way Silverpine Forest 44.5 43`
 
 **2 quests start inside** and cannot be picked up in advance:
 
@@ -164,38 +270,107 @@ The priority run of your bracket: Living Root drops off Verdan the Everliving. E
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **Serpentbloom**<br>Collect 10 Serpentbloom from inside. | 14 | **Apothecary Zamah**<br>*The Spirit Rise*<br>`/way Thunder Bluff 23.6 21.4` | **Apothecary Zamah**<br>*The Spirit Rise*<br>`/way Thunder Bluff 23.6 21.4` |
-| 2 | **Leaders of the Fang**<br>*chain: requires the Forgotten Pools chain first*<br>Collect four gems from the Fang bosses. | 10 | **Nara Wildmane**<br>*The Elder Rise*<br>`/way Thunder Bluff 75.6 31.2` | **Nara Wildmane**<br>*The Elder Rise*<br>`/way Thunder Bluff 75.6 31.2` |
-| 3 | **Smart Drinks**<br>*both factions* · *chain: requires Raptor Horns first*<br>Collect 6 Wailing Essence. | 13 | **Mebok Mizzyrix**<br>*Ratchet*<br>`/way The Barrens 62.4 37.6` | **Mebok Mizzyrix**<br>*Ratchet*<br>`/way The Barrens 62.4 37.6` |
-| 4 | **Trouble at the Docks**<br>*both factions*<br>Retrieve the crate from Mad Magglish, outside the instance. | 14 | **Crane Operator Bigglefuzz**<br>*Ratchet*<br>`/way The Barrens 63 37.4` | **Crane Operator Bigglefuzz**<br>*Ratchet*<br>`/way The Barrens 63 37.4` |
-| 5 | **Deviate Hides**<br>*both factions*<br>Collect 20 Deviate Hide. | 13 | **Nalpak**<br>*Wailing Caverns entrance cave*<br>`/way The Barrens 46 35` | **Nalpak**<br>*Wailing Caverns entrance cave*<br>`/way The Barrens 46 35` |
-| 6 | **Deviate Eradication**<br>*both factions*<br>Kill 28 Deviate creatures inside. | 15 | **Ebru**<br>*Wailing Caverns entrance cave*<br>`/way The Barrens 46 35` | **Ebru**<br>*Wailing Caverns entrance cave*<br>`/way The Barrens 46 35` |
-| 7 | **The Glowing Shard**<br>*both factions*<br>Starts from a drop off Mutanus the Devourer. Routes via Sputtervalve in Ratchet. | 15 | **Glowing Shard (off Mutanus the Devourer)**<br>*Inside Wailing Caverns* | **Falla Sagewind**<br>*The Barrens*<br>`/way The Barrens 48.2 32.8` |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">Serpentbloom</span><span class="q-lvl">Level 14</span></p>
+<p class="q-obj">Collect 10 Serpentbloom from inside.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Apothecary Zamah</strong><span class="q-where">The Spirit Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 23.6 21.4</code></dd>
+<dt>Turn in</dt><dd><strong>Apothecary Zamah</strong><span class="q-where">The Spirit Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 23.6 21.4</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Leaders of the Fang</span><span class="q-lvl">Level 10</span></p>
+<p class="q-tags"><span>chain: requires the Forgotten Pools chain first</span></p>
+<p class="q-obj">Collect four gems from the Fang bosses.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Nara Wildmane</strong><span class="q-where">The Elder Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 75.6 31.2</code></dd>
+<dt>Turn in</dt><dd><strong>Nara Wildmane</strong><span class="q-where">The Elder Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 75.6 31.2</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">Smart Drinks</span><span class="q-lvl">Level 13</span></p>
+<p class="q-tags"><span>both factions</span><span>chain: requires Raptor Horns first</span></p>
+<p class="q-obj">Collect 6 Wailing Essence.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Mebok Mizzyrix</strong><span class="q-where">Ratchet, The Barrens</span><code class="q-way">/way The Barrens 62.4 37.6</code></dd>
+<dt>Turn in</dt><dd><strong>Mebok Mizzyrix</strong><span class="q-where">Ratchet, The Barrens</span><code class="q-way">/way The Barrens 62.4 37.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">Trouble at the Docks</span><span class="q-lvl">Level 14</span></p>
+<p class="q-tags"><span>both factions</span></p>
+<p class="q-obj">Retrieve the crate from Mad Magglish, outside the instance.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Crane Operator Bigglefuzz</strong><span class="q-where">Ratchet, The Barrens</span><code class="q-way">/way The Barrens 63 37.4</code></dd>
+<dt>Turn in</dt><dd><strong>Crane Operator Bigglefuzz</strong><span class="q-where">Ratchet, The Barrens</span><code class="q-way">/way The Barrens 63 37.4</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">5</span><span class="q-name">Deviate Hides</span><span class="q-lvl">Level 13</span></p>
+<p class="q-tags"><span>both factions</span></p>
+<p class="q-obj">Collect 20 Deviate Hide.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Nalpak</strong><span class="q-where">Wailing Caverns entrance cave, The Barrens</span><code class="q-way">/way The Barrens 46 35</code></dd>
+<dt>Turn in</dt><dd><strong>Nalpak</strong><span class="q-where">Wailing Caverns entrance cave, The Barrens</span><code class="q-way">/way The Barrens 46 35</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">6</span><span class="q-name">Deviate Eradication</span><span class="q-lvl">Level 15</span></p>
+<p class="q-tags"><span>both factions</span></p>
+<p class="q-obj">Kill 28 Deviate creatures inside.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Ebru</strong><span class="q-where">Wailing Caverns entrance cave, The Barrens</span><code class="q-way">/way The Barrens 46 35</code></dd>
+<dt>Turn in</dt><dd><strong>Ebru</strong><span class="q-where">Wailing Caverns entrance cave, The Barrens</span><code class="q-way">/way The Barrens 46 35</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">7</span><span class="q-name">The Glowing Shard</span><span class="q-lvl">Level 15</span></p>
+<p class="q-tags"><span>both factions</span></p>
+<p class="q-obj">Starts from a drop off Mutanus the Devourer. Routes via Sputtervalve in Ratchet.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Glowing Shard (off Mutanus the Devourer)</strong><span class="q-where">Inside Wailing Caverns</span></dd>
+<dt>Turn in</dt><dd><strong>Falla Sagewind</strong><span class="q-where">The Barrens</span><code class="q-way">/way The Barrens 48.2 32.8</code></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **6 to collect before you go.** Grouped by stop:
 
-```
-1. Thunder Bluff
-      Apothecary Zamah  -  Serpentbloom
-      /way Thunder Bluff 23.6 21.4
-      Nara Wildmane  -  Leaders of the Fang
-      /way Thunder Bluff 75.6 31.2
-2. The Barrens
-      Mebok Mizzyrix  -  Smart Drinks
-      /way The Barrens 62.4 37.6
-      Crane Operator Bigglefuzz  -  Trouble at the Docks
-      /way The Barrens 63 37.4
-      Nalpak  -  Deviate Hides
-      /way The Barrens 46 35
-      Ebru  -  Deviate Eradication
-      /way The Barrens 46 35
-3. The Barrens  -  dungeon entrance
-      /way The Barrens 46 36.3
-```
+**1. Thunder Bluff**
+
+- **Apothecary Zamah** — The Spirit Rise
+    - Serpentbloom
+    - `/way Thunder Bluff 23.6 21.4`
+- **Nara Wildmane** — The Elder Rise
+    - Leaders of the Fang
+    - `/way Thunder Bluff 75.6 31.2`
+
+**2. The Barrens**
+
+- **Mebok Mizzyrix** — Ratchet
+    - Smart Drinks
+    - `/way The Barrens 62.4 37.6`
+- **Crane Operator Bigglefuzz** — Ratchet
+    - Trouble at the Docks
+    - `/way The Barrens 63 37.4`
+- **Nalpak** — Wailing Caverns entrance cave
+    - Deviate Hides
+    - `/way The Barrens 46 35`
+- **Ebru** — Wailing Caverns entrance cave
+    - Deviate Eradication
+    - `/way The Barrens 46 35`
+
+**3. The Barrens** — dungeon entrance
+
+- `/way The Barrens 46 36.3`
 
 **1 quest starts inside** and cannot be picked up in advance:
 
@@ -221,29 +396,66 @@ Pairs naturally with Ruins of Lordaeron - both are on the Undercity side of the 
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **The Book of Ur**<br>Recover the Book of Ur from inside. Rewards Tattered Mittens. | 16 | **Keeper Bel'dugur**<br>*The Apothecarium*<br>`/way Undercity 54 54.6` | **Keeper Bel'dugur**<br>*The Apothecarium*<br>`/way Undercity 54 54.6` |
-| 2 | **Arugal Must Die**<br>Kill Archmage Arugal. | 18 | **Dalar Dawnweaver**<br>*The Sepulcher*<br>`/way Silverpine Forest 44.2 39.8` | **Dalar Dawnweaver**<br>*The Sepulcher*<br>`/way Silverpine Forest 44.2 39.8` |
-| 3 | **Deathstalkers in Shadowfang**<br>Find Deathstalker Vincent inside. Rewards Ghostly Mantle. | 18 | **High Executor Hadrec**<br>*The Sepulcher, basement*<br>`/way Silverpine Forest 43.4 40.8` | **Deathstalker Vincent**<br>*Inside Shadowfang Keep* |
-| 4 | **The Orb of Soran'ruk**<br>*both factions* · **Warlock**<br>Warlock class quest. Not applicable to a druid - listed for group planning. | 20 | **Doan Karhan**<br>*The Barrens*<br>`/way The Barrens 49.2 57.2` | **Doan Karhan**<br>*The Barrens*<br>`/way The Barrens 49.2 57.2` |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">The Book of Ur</span><span class="q-lvl">Level 16</span></p>
+<p class="q-obj">Recover the Book of Ur from inside. Rewards Tattered Mittens.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Keeper Bel'dugur</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 54 54.6</code></dd>
+<dt>Turn in</dt><dd><strong>Keeper Bel'dugur</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 54 54.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Arugal Must Die</span><span class="q-lvl">Level 18</span></p>
+<p class="q-obj">Kill Archmage Arugal.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Dalar Dawnweaver</strong><span class="q-where">The Sepulcher, Silverpine Forest</span><code class="q-way">/way Silverpine Forest 44.2 39.8</code></dd>
+<dt>Turn in</dt><dd><strong>Dalar Dawnweaver</strong><span class="q-where">The Sepulcher, Silverpine Forest</span><code class="q-way">/way Silverpine Forest 44.2 39.8</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">Deathstalkers in Shadowfang</span><span class="q-lvl">Level 18</span></p>
+<p class="q-obj">Find Deathstalker Vincent inside. Rewards Ghostly Mantle.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>High Executor Hadrec</strong><span class="q-where">The Sepulcher, basement, Silverpine Forest</span><code class="q-way">/way Silverpine Forest 43.4 40.8</code></dd>
+<dt>Turn in</dt><dd><strong>Deathstalker Vincent</strong><span class="q-where">Inside Shadowfang Keep</span></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">The Orb of Soran'ruk</span><span class="q-lvl">Level 20</span></p>
+<p class="q-tags"><span>both factions</span><span>Warlock</span></p>
+<p class="q-obj">Warlock class quest. Not applicable to a druid - listed for group planning.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Doan Karhan</strong><span class="q-where">The Barrens</span><code class="q-way">/way The Barrens 49.2 57.2</code></dd>
+<dt>Turn in</dt><dd><strong>Doan Karhan</strong><span class="q-where">The Barrens</span><code class="q-way">/way The Barrens 49.2 57.2</code></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **3 to collect before you go.** Grouped by stop:
 
-```
-1. Undercity
-      Keeper Bel'dugur  -  The Book of Ur
-      /way Undercity 54 54.6
-2. Silverpine Forest
-      Dalar Dawnweaver  -  Arugal Must Die
-      /way Silverpine Forest 44.2 39.8
-      High Executor Hadrec  -  Deathstalkers in Shadowfang
-      /way Silverpine Forest 43.4 40.8
-3. Silverpine Forest  -  dungeon entrance
-      /way Silverpine Forest 44.5 68
-```
+**1. Undercity**
+
+- **Keeper Bel'dugur** — The Apothecarium
+    - The Book of Ur
+    - `/way Undercity 54 54.6`
+
+**2. Silverpine Forest**
+
+- **Dalar Dawnweaver** — The Sepulcher
+    - Arugal Must Die
+    - `/way Silverpine Forest 44.2 39.8`
+- **High Executor Hadrec** — The Sepulcher, basement
+    - Deathstalkers in Shadowfang
+    - `/way Silverpine Forest 43.4 40.8`
+
+**3. Silverpine Forest** — dungeon entrance
+
+- `/way Silverpine Forest 44.5 68`
 
 ---
 
@@ -263,27 +475,64 @@ Pairs with Ashenvale questing. Je'neu Sancrea at Zoram'gar Outpost is effectivel
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **The Essence of Aku'Mai** | 17 | **Je'neu Sancrea**<br>*Zoram'gar Outpost*<br>`/way Ashenvale 11.6 34.2` | **Je'neu Sancrea**<br>*Zoram'gar Outpost*<br>`/way Ashenvale 11.6 34.2` |
-| 2 | **Allegiance to the Old Gods**<br>Starts from a Damp Note drop; chains back to Je'neu Sancrea. | 17 | **Damp Note (drop)**<br>*Inside Blackfathom Deeps* | **Je'neu Sancrea**<br>*Zoram'gar Outpost*<br>`/way Ashenvale 11.6 34.2` |
-| 3 | **Blackfathom Villainy**<br>Picked up from Argent Guard Thaelrid inside the instance. | 18 | **Argent Guard Thaelrid**<br>*Inside Blackfathom Deeps* | **Bashana Runetotem**<br>*The Elder Rise*<br>`/way Thunder Bluff 70.8 33.8` |
-| 4 | **Baron Aquanis**<br>Starts from the Strange Water Globe off Baron Aquanis. | 21 | **Strange Water Globe (off Baron Aquanis)**<br>*Inside Blackfathom Deeps* | **Je'neu Sancrea**<br>*Zoram'gar Outpost*<br>`/way Ashenvale 11.6 34.2` |
-| 5 | **Amongst the Ruins** | 21 | **Je'neu Sancrea**<br>*Zoram'gar Outpost*<br>`/way Ashenvale 11.6 34.2` | **Je'neu Sancrea**<br>*Zoram'gar Outpost*<br>`/way Ashenvale 11.6 34.2` |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">The Essence of Aku'Mai</span><span class="q-lvl">Level 17</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Je'neu Sancrea</strong><span class="q-where">Zoram'gar Outpost, Ashenvale</span><code class="q-way">/way Ashenvale 11.6 34.2</code></dd>
+<dt>Turn in</dt><dd><strong>Je'neu Sancrea</strong><span class="q-where">Zoram'gar Outpost, Ashenvale</span><code class="q-way">/way Ashenvale 11.6 34.2</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Allegiance to the Old Gods</span><span class="q-lvl">Level 17</span></p>
+<p class="q-obj">Starts from a Damp Note drop; chains back to Je'neu Sancrea.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Damp Note (drop)</strong><span class="q-where">Inside Blackfathom Deeps</span></dd>
+<dt>Turn in</dt><dd><strong>Je'neu Sancrea</strong><span class="q-where">Zoram'gar Outpost, Ashenvale</span><code class="q-way">/way Ashenvale 11.6 34.2</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">Blackfathom Villainy</span><span class="q-lvl">Level 18</span></p>
+<p class="q-obj">Picked up from Argent Guard Thaelrid inside the instance.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Argent Guard Thaelrid</strong><span class="q-where">Inside Blackfathom Deeps</span></dd>
+<dt>Turn in</dt><dd><strong>Bashana Runetotem</strong><span class="q-where">The Elder Rise, Thunder Bluff</span><code class="q-way">/way Thunder Bluff 70.8 33.8</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">Baron Aquanis</span><span class="q-lvl">Level 21</span></p>
+<p class="q-obj">Starts from the Strange Water Globe off Baron Aquanis.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Strange Water Globe (off Baron Aquanis)</strong><span class="q-where">Inside Blackfathom Deeps</span></dd>
+<dt>Turn in</dt><dd><strong>Je'neu Sancrea</strong><span class="q-where">Zoram'gar Outpost, Ashenvale</span><code class="q-way">/way Ashenvale 11.6 34.2</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">5</span><span class="q-name">Amongst the Ruins</span><span class="q-lvl">Level 21</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Je'neu Sancrea</strong><span class="q-where">Zoram'gar Outpost, Ashenvale</span><code class="q-way">/way Ashenvale 11.6 34.2</code></dd>
+<dt>Turn in</dt><dd><strong>Je'neu Sancrea</strong><span class="q-where">Zoram'gar Outpost, Ashenvale</span><code class="q-way">/way Ashenvale 11.6 34.2</code></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **2 to collect before you go.** Grouped by stop:
 
-```
-1. Ashenvale
-      Je'neu Sancrea  -  The Essence of Aku'Mai
-      /way Ashenvale 11.6 34.2
-      Je'neu Sancrea  -  Amongst the Ruins
-      /way Ashenvale 11.6 34.2
-2. Ashenvale  -  dungeon entrance
-      /way Ashenvale 14.5 14.6
-```
+**1. Ashenvale**
+
+- **Je'neu Sancrea** — Zoram'gar Outpost
+    - The Essence of Aku'Mai
+    - Amongst the Ruins
+    - `/way Ashenvale 11.6 34.2`
+
+**2. Ashenvale** — dungeon entrance
+
+- `/way Ashenvale 14.5 14.6`
 
 **3 quests start inside** and cannot be picked up in advance:
 
@@ -309,32 +558,86 @@ Southern Barrens, staged from Camp Taurajo. Note the level spread: Blueleaf Tube
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **Blueleaf Tubers**<br>*both factions* | 20 | **Mebok Mizzyrix**<br>*Ratchet*<br>`/way The Barrens 62.4 37.6` | **Mebok Mizzyrix**<br>*Ratchet*<br>`/way The Barrens 62.4 37.6` |
-| 2 | **Willix the Importer**<br>*both factions*<br>Escort quest. Picked up inside the instance. | 25 | **Willix the Importer**<br>*Inside Razorfen Kraul* | **Willix the Importer**<br>*Inside Razorfen Kraul* |
-| 3 | **A Vengeful Fate** | 29 | **Auld Stonespire**<br>*Thunder Bluff*<br>`/way Thunder Bluff 36.8 59.6` | **Auld Stonespire**<br>*Thunder Bluff*<br>`/way Thunder Bluff 36.8 59.6` |
-| 4 | **An Unholy Alliance**<br>Starts from a Small Scroll off Charlga Razorflank. | 29 | **Small Scroll (off Charlga Razorflank)**<br>*Inside Razorfen Kraul* | **Varimathras**<br>*Royal Quarter*<br>`/way Undercity 56.6 92.6` |
-| 5 | **Going, Going, Guano!** | 30 | **Master Apothecary Faranell**<br>*The Apothecarium*<br>`/way Undercity 48.6 69.6` | **Master Apothecary Faranell**<br>*The Apothecarium*<br>`/way Undercity 48.6 69.6` |
-| 6 | **Brutal Armor**<br>**Warrior**<br>Warrior class quest. Not applicable to a druid - listed for group planning. | 20 | **Thun'grim Firegaze**<br>*The Barrens*<br>`/way The Barrens 57.2 30.2` | **Thun'grim Firegaze**<br>*The Barrens*<br>`/way The Barrens 57.2 30.2` |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">Blueleaf Tubers</span><span class="q-lvl">Level 20</span></p>
+<p class="q-tags"><span>both factions</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Mebok Mizzyrix</strong><span class="q-where">Ratchet, The Barrens</span><code class="q-way">/way The Barrens 62.4 37.6</code></dd>
+<dt>Turn in</dt><dd><strong>Mebok Mizzyrix</strong><span class="q-where">Ratchet, The Barrens</span><code class="q-way">/way The Barrens 62.4 37.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Willix the Importer</span><span class="q-lvl">Level 25</span></p>
+<p class="q-tags"><span>both factions</span></p>
+<p class="q-obj">Escort quest. Picked up inside the instance.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Willix the Importer</strong><span class="q-where">Inside Razorfen Kraul</span></dd>
+<dt>Turn in</dt><dd><strong>Willix the Importer</strong><span class="q-where">Inside Razorfen Kraul</span></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">A Vengeful Fate</span><span class="q-lvl">Level 29</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Auld Stonespire</strong><span class="q-where">Thunder Bluff</span><code class="q-way">/way Thunder Bluff 36.8 59.6</code></dd>
+<dt>Turn in</dt><dd><strong>Auld Stonespire</strong><span class="q-where">Thunder Bluff</span><code class="q-way">/way Thunder Bluff 36.8 59.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">An Unholy Alliance</span><span class="q-lvl">Level 29</span></p>
+<p class="q-obj">Starts from a Small Scroll off Charlga Razorflank.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Small Scroll (off Charlga Razorflank)</strong><span class="q-where">Inside Razorfen Kraul</span></dd>
+<dt>Turn in</dt><dd><strong>Varimathras</strong><span class="q-where">Royal Quarter, Undercity</span><code class="q-way">/way Undercity 56.6 92.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">5</span><span class="q-name">Going, Going, Guano!</span><span class="q-lvl">Level 30</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Master Apothecary Faranell</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 48.6 69.6</code></dd>
+<dt>Turn in</dt><dd><strong>Master Apothecary Faranell</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 48.6 69.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">6</span><span class="q-name">Brutal Armor</span><span class="q-lvl">Level 20</span></p>
+<p class="q-tags"><span>Warrior</span></p>
+<p class="q-obj">Warrior class quest. Not applicable to a druid - listed for group planning.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Thun'grim Firegaze</strong><span class="q-where">The Barrens</span><code class="q-way">/way The Barrens 57.2 30.2</code></dd>
+<dt>Turn in</dt><dd><strong>Thun'grim Firegaze</strong><span class="q-where">The Barrens</span><code class="q-way">/way The Barrens 57.2 30.2</code></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **3 to collect before you go.** Grouped by stop:
 
-```
-1. The Barrens
-      Mebok Mizzyrix  -  Blueleaf Tubers
-      /way The Barrens 62.4 37.6
-2. Thunder Bluff
-      Auld Stonespire  -  A Vengeful Fate
-      /way Thunder Bluff 36.8 59.6
-3. Undercity
-      Master Apothecary Faranell  -  Going, Going, Guano!
-      /way Undercity 48.6 69.6
-4. The Barrens  -  dungeon entrance
-      /way The Barrens 43 90
-```
+**1. The Barrens**
+
+- **Mebok Mizzyrix** — Ratchet
+    - Blueleaf Tubers
+    - `/way The Barrens 62.4 37.6`
+
+**2. Thunder Bluff**
+
+- **Auld Stonespire** — Thunder Bluff
+    - A Vengeful Fate
+    - `/way Thunder Bluff 36.8 59.6`
+
+**3. Undercity**
+
+- **Master Apothecary Faranell** — The Apothecarium
+    - Going, Going, Guano!
+    - `/way Undercity 48.6 69.6`
+
+**4. The Barrens** — dungeon entrance
+
+- `/way The Barrens 43 90`
 
 **2 quests start inside** and cannot be picked up in advance:
 
@@ -359,31 +662,80 @@ New in Forever, and Horde-accessible despite sitting in Alliance-leaning territo
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **Changing Tastes**<br>Collect Thicket Raptor Meat inside. | 24 | **Borstan**<br>*The Drag*<br>❓ *coords not published* | **Borstan**<br>*The Drag*<br>❓ *coords not published* |
-| 2 | **Dragonmaw Rumors**<br>*chain: leads to Open the Maw* | 24 | **Zengu**<br>*Hammerfall*<br>❓ *coords not published* | **Deathstalker Agent**<br>*At the instance entrance*<br>`/way Wetlands 53.2 65.8` |
-| 3 | **Open the Maw**<br>Kill Dragonmaw forces inside. | 24 | **Deathstalker Agent**<br>*At the instance entrance*<br>`/way Wetlands 53.2 65.8` | **Deathstalker Agent**<br>*At the instance entrance*<br>`/way Wetlands 53.2 65.8` |
-| 4 | **Elder Knowledge**<br>Starts from a Relic Guardian drop. Reported bugged during beta - check before relying on it. | 24 | **Relic Guardian (drop)**<br>*Inside Excavation Site* | **Unidentified NPC**<br>*Thunder Bluff*<br>❓ *coords not published* |
-| 5 | **Earthen Echo**<br>*chain: follows Elder Knowledge* | 24 | **Unidentified NPC**<br>*Thunder Bluff*<br>❓ *coords not published* | **Muln Earthfury**<br>*Mulgore*<br>❓ *coords not published* |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">Changing Tastes</span><span class="q-lvl">Level 24</span></p>
+<p class="q-obj">Collect Thicket Raptor Meat inside.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Borstan</strong><span class="q-where">The Drag, Orgrimmar</span><span class="q-where">❓ coordinates not published</span></dd>
+<dt>Turn in</dt><dd><strong>Borstan</strong><span class="q-where">The Drag, Orgrimmar</span><span class="q-where">❓ coordinates not published</span></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Dragonmaw Rumors</span><span class="q-lvl">Level 24</span></p>
+<p class="q-tags"><span>chain: leads to Open the Maw</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Zengu</strong><span class="q-where">Hammerfall, Arathi Highlands</span><span class="q-where">❓ coordinates not published</span></dd>
+<dt>Turn in</dt><dd><strong>Deathstalker Agent</strong><span class="q-where">At the instance entrance, Wetlands</span><code class="q-way">/way Wetlands 53.2 65.8</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">Open the Maw</span><span class="q-lvl">Level 24</span></p>
+<p class="q-obj">Kill Dragonmaw forces inside.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Deathstalker Agent</strong><span class="q-where">At the instance entrance, Wetlands</span><code class="q-way">/way Wetlands 53.2 65.8</code></dd>
+<dt>Turn in</dt><dd><strong>Deathstalker Agent</strong><span class="q-where">At the instance entrance, Wetlands</span><code class="q-way">/way Wetlands 53.2 65.8</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">Elder Knowledge</span><span class="q-lvl">Level 24</span></p>
+<p class="q-obj">Starts from a Relic Guardian drop. Reported bugged during beta - check before relying on it.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Relic Guardian (drop)</strong><span class="q-where">Inside Excavation Site</span></dd>
+<dt>Turn in</dt><dd><strong>Unidentified NPC</strong><span class="q-where">Thunder Bluff</span><span class="q-where">❓ coordinates not published</span></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">5</span><span class="q-name">Earthen Echo</span><span class="q-lvl">Level 24</span></p>
+<p class="q-tags"><span>chain: follows Elder Knowledge</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Unidentified NPC</strong><span class="q-where">Thunder Bluff</span><span class="q-where">❓ coordinates not published</span></dd>
+<dt>Turn in</dt><dd><strong>Muln Earthfury</strong><span class="q-where">Mulgore</span><span class="q-where">❓ coordinates not published</span></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **4 to collect before you go.** Grouped by stop:
 
-```
-1. Orgrimmar
-      Borstan  -  Changing Tastes
-2. Arathi Highlands
-      Zengu  -  Dragonmaw Rumors
-3. Wetlands
-      Deathstalker Agent  -  Open the Maw
-      /way Wetlands 53.2 65.8
-4. Thunder Bluff
-      Unidentified NPC  -  Earthen Echo
-5. Wetlands  -  dungeon entrance
-      /way Wetlands 53.2 65.8
-```
+**1. Orgrimmar**
+
+- **Borstan** — The Drag
+    - Changing Tastes
+
+**2. Arathi Highlands**
+
+- **Zengu** — Hammerfall
+    - Dragonmaw Rumors
+
+**3. Wetlands**
+
+- **Deathstalker Agent** — At the instance entrance
+    - Open the Maw
+    - `/way Wetlands 53.2 65.8`
+
+**4. Thunder Bluff**
+
+- **Unidentified NPC** — Thunder Bluff
+    - Earthen Echo
+
+**5. Wetlands** — dungeon entrance
+
+- `/way Wetlands 53.2 65.8`
 
 **1 quest starts inside** and cannot be picked up in advance:
 
@@ -427,29 +779,73 @@ Your level-30 target. Four wings at different levels, so it stays useful well pa
 
 ### Quests
 
-| # | Quest | Lvl | Pick up from | Turn in to |
-|---|---|---|---|---|
-| 1 | **Vorrel's Revenge**<br>*Graveyard*<br>Picked up from Vorrel Sengutz inside the Graveyard wing. | 25 | **Vorrel Sengutz**<br>*SM: Graveyard* | **Monika Sengutz**<br>*Tarren Mill*<br>`/way Hillsbrad Foothills 62.6 19` |
-| 2 | **Test of Lore**<br>*Library* · *chain: requires the seven-quest Test of Faith series* | 25 | **Parqual Fintallas**<br>*The Apothecarium*<br>`/way Undercity 57.8 65` | **Parqual Fintallas**<br>*The Apothecarium*<br>`/way Undercity 57.8 65` |
-| 3 | **Compendium of the Fallen**<br>**Orc, Tauren and Troll only - you qualify** · *Library* | 28 | **Sage Truthseeker**<br>*Thunder Bluff*<br>`/way Thunder Bluff 34.8 47.8` | **Sage Truthseeker**<br>*Thunder Bluff*<br>`/way Thunder Bluff 34.8 47.8` |
-| 4 | **Hearts of Zeal**<br>*Exterior* | 30 | **Master Apothecary Faranell**<br>*The Apothecarium*<br>`/way Undercity 48.6 69.6` | **Master Apothecary Faranell**<br>*The Apothecarium*<br>`/way Undercity 48.6 69.6` |
-| 5 | **Into the Scarlet Monastery**<br>*Cathedral, Armory, Library* · **above level 30**<br>Above your beta cap - listed so you know it exists. | 33 | **Varimathras**<br>*Royal Quarter*<br>`/way Undercity 56.6 92.4` | **Varimathras**<br>*Royal Quarter*<br>`/way Undercity 56.6 92.4` |
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">1</span><span class="q-name">Vorrel's Revenge</span><span class="q-lvl">Level 25</span></p>
+<p class="q-tags"><span>Graveyard</span></p>
+<p class="q-obj">Picked up from Vorrel Sengutz inside the Graveyard wing.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Vorrel Sengutz</strong><span class="q-where">SM: Graveyard</span></dd>
+<dt>Turn in</dt><dd><strong>Monika Sengutz</strong><span class="q-where">Tarren Mill, Hillsbrad Foothills</span><code class="q-way">/way Hillsbrad Foothills 62.6 19</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">2</span><span class="q-name">Test of Lore</span><span class="q-lvl">Level 25</span></p>
+<p class="q-tags"><span>Library</span><span>chain: requires the seven-quest Test of Faith series</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Parqual Fintallas</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 57.8 65</code></dd>
+<dt>Turn in</dt><dd><strong>Parqual Fintallas</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 57.8 65</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">3</span><span class="q-name">Compendium of the Fallen</span><span class="q-lvl">Level 28</span></p>
+<p class="q-tags"><span>Orc, Tauren and Troll only - you qualify</span><span>Library</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Sage Truthseeker</strong><span class="q-where">Thunder Bluff</span><code class="q-way">/way Thunder Bluff 34.8 47.8</code></dd>
+<dt>Turn in</dt><dd><strong>Sage Truthseeker</strong><span class="q-where">Thunder Bluff</span><code class="q-way">/way Thunder Bluff 34.8 47.8</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">4</span><span class="q-name">Hearts of Zeal</span><span class="q-lvl">Level 30</span></p>
+<p class="q-tags"><span>Exterior</span></p>
+<dl>
+<dt>Pick up</dt><dd><strong>Master Apothecary Faranell</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 48.6 69.6</code></dd>
+<dt>Turn in</dt><dd><strong>Master Apothecary Faranell</strong><span class="q-where">The Apothecarium, Undercity</span><code class="q-way">/way Undercity 48.6 69.6</code></dd>
+</dl>
+</div>
+
+<div class="quest" markdown>
+<p class="q-head"><span class="q-num">5</span><span class="q-name">Into the Scarlet Monastery</span><span class="q-lvl">Level 33</span></p>
+<p class="q-tags"><span>Cathedral, Armory, Library</span><span>above level 30</span></p>
+<p class="q-obj">Above your beta cap - listed so you know it exists.</p>
+<dl>
+<dt>Pick up</dt><dd><strong>Varimathras</strong><span class="q-where">Royal Quarter, Undercity</span><code class="q-way">/way Undercity 56.6 92.4</code></dd>
+<dt>Turn in</dt><dd><strong>Varimathras</strong><span class="q-where">Royal Quarter, Undercity</span><code class="q-way">/way Undercity 56.6 92.4</code></dd>
+</dl>
+</div>
+
 
 ### Pickup run
 
 **3 to collect before you go.** Grouped by stop:
 
-```
-1. Undercity
-      Parqual Fintallas  -  Test of Lore
-      /way Undercity 57.8 65
-      Master Apothecary Faranell  -  Hearts of Zeal
-      /way Undercity 48.6 69.6
-      Varimathras  -  Into the Scarlet Monastery
-      /way Undercity 56.6 92.4
-2. Tirisfal Glades  -  dungeon entrance
-      /way Tirisfal Glades 85 30
-```
+**1. Undercity**
+
+- **Parqual Fintallas** — The Apothecarium
+    - Test of Lore
+    - `/way Undercity 57.8 65`
+- **Master Apothecary Faranell** — The Apothecarium
+    - Hearts of Zeal
+    - `/way Undercity 48.6 69.6`
+- **Varimathras** — Royal Quarter
+    - Into the Scarlet Monastery
+    - `/way Undercity 56.6 92.4`
+
+**2. Tirisfal Glades** — dungeon entrance
+
+- `/way Tirisfal Glades 85 30`
 
 **1 quest starts inside** and cannot be picked up in advance:
 

@@ -30,21 +30,29 @@ def has_coords(loc):
 
 # ----------------------------------------------------------------- md building
 
-def loc_cell(loc, zones):
+def esc(t):
+    return (str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def loc_lines(loc, zones):
+    """Return the HTML for one location: NPC, where, and the /way line."""
     if not loc:
-        return "—"
+        return "&mdash;"
     zn = zones.get(loc.get("zone"), {}).get("name", loc.get("zone", ""))
     sub = loc.get("sub") or ""
-    npc = "**%s**" % loc.get("npc", "?")
+    out = ["<strong>%s</strong>" % esc(loc.get("npc", "?"))]
     if loc.get("zone") == "inside":
-        return "%s<br>*%s*" % (npc, sub or zn)
-    bits = [npc]
-    bits.append("*%s*" % (sub if sub else zn))
+        out.append('<span class="q-where">%s</span>' % esc(sub or zn))
+        return "".join(out)
+    where = sub if sub else zn
+    if sub and zn and zn.lower() not in sub.lower():
+        where = "%s, %s" % (sub, zn)
+    out.append('<span class="q-where">%s</span>' % esc(where))
     if has_coords(loc):
-        bits.append("`%s`" % way(zn, loc["x"], loc["y"]))
+        out.append('<code class="q-way">%s</code>' % esc(way(zn, loc["x"], loc["y"])))
     elif loc.get("confidence") == "verify":
-        bits.append("❓ *coords not published*")
-    return "<br>".join(bits)
+        out.append('<span class="q-where">❓ coordinates not published</span>')
+    return "".join(out)
 
 
 def build():
@@ -88,12 +96,12 @@ def build():
     # at-a-glance
     A("## At a glance")
     A("")
-    A("**To collect** = quests you can pick up before you enter. **Starts inside** = quests granted "
-      "by an item or NPC within the dungeon, which you cannot get in advance. Class-only quests and "
-      "anything above level 30 are excluded from both counts.")
+    A("**Collect** = quests you can pick up before you enter. **Inside** = quests granted by an item "
+      "or NPC within the dungeon, which you cannot get in advance. Class-only quests and anything "
+      "above level 30 are excluded from both counts.")
     A("")
-    A("| Rec. | Dungeon | Zone | To collect | Starts inside | Entrance |")
-    A("|---|---|---|---|---|---|")
+    A("| Lvl | Dungeon | Collect | Inside |")
+    A("|---|---|---|---|")
     for d in data["dungeons"]:
         usable = [q for q in d["quests"] if q.get("faction") in ("Horde", "Both")
                   and not q.get("class_only") and not q.get("beyond_cap")]
@@ -101,12 +109,11 @@ def build():
         ins = len([q for q in usable if q.get("giver", {}).get("zone") == "inside"])
         ent = d.get("entrance") or {}
         zn = zones.get(ent.get("zone"), {}).get("name", "?")
-        ec = "`%s`" % way(zn, ent["x"], ent["y"]) if has_coords(ent) else "%s ❓" % zn
-        nm = "**[%s](#%s)**" % (d["name"], d["slug"])
-        A("| %d | %s | %s | %s | %s | %s |"
-          % (d["rec_level"], nm, zn,
+        nm = "**[%s](#%s)**<br><span class=\"t-sub\">%s</span>" % (d["name"], d["slug"], zn)
+        A("| %d | %s | %s | %s |"
+          % (d["rec_level"], nm,
              ("—" if d.get("stub") else str(n)),
-             ("—" if d.get("stub") else str(ins)), ec))
+             ("—" if d.get("stub") else str(ins))))
     A("")
     A("---")
     A("")
@@ -146,30 +153,40 @@ def build():
             A("**Gear:** %s See [Gear](gear.md#dungeon-drops-to-watch-for)." % d["gear_note"])
             A("")
 
-        # quest table
+        # Quests render as cards, not a table: a 5-column table with an address and
+        # a /way line in every cell cannot fit a phone without sideways scrolling.
         A("### Quests")
         A("")
-        A("| # | Quest | Lvl | Pick up from | Turn in to |")
-        A("|---|---|---|---|---|")
         for i, q in enumerate(d["quests"], 1):
-            flags = []
+            tags = []
             if q.get("faction") == "Both":
-                flags.append("*both factions*")
+                tags.append("both factions")
             if q.get("class_only"):
-                flags.append("**%s**" % q["class_only"])
+                tags.append(q["class_only"])
             if q.get("wing"):
-                flags.append("*%s*" % q["wing"])
+                tags.append(q["wing"])
             if q.get("chain"):
-                flags.append("*chain: %s*" % q["chain"])
+                tags.append("chain: %s" % q["chain"])
             if q.get("beyond_cap"):
-                flags.append("**above level 30**")
-            nm = "**%s**" % q["name"]
-            if flags:
-                nm += "<br>" + " · ".join(flags)
+                tags.append("above level 30")
+
+            A('<div class="quest" markdown>')
+            A('<p class="q-head">'
+              '<span class="q-num">%d</span>'
+              '<span class="q-name">%s</span>'
+              '<span class="q-lvl">Level %d</span>'
+              '</p>' % (i, esc(q["name"]), q["level"]))
+            if tags:
+                A('<p class="q-tags">%s</p>'
+                  % "".join('<span>%s</span>' % esc(t) for t in tags))
             if q.get("objective"):
-                nm += "<br>%s" % q["objective"]
-            A("| %d | %s | %d | %s | %s |"
-              % (i, nm, q["level"], loc_cell(q.get("giver"), zones), loc_cell(q.get("turnin"), zones)))
+                A('<p class="q-obj">%s</p>' % esc(q["objective"]))
+            A("<dl>")
+            A("<dt>Pick up</dt><dd>%s</dd>" % loc_lines(q.get("giver"), zones))
+            A("<dt>Turn in</dt><dd>%s</dd>" % loc_lines(q.get("turnin"), zones))
+            A("</dl>")
+            A("</div>")
+            A("")
         A("")
 
         # pickup route: outside-obtainable, grouped by zone
@@ -188,24 +205,44 @@ def build():
                 if z not in seen:
                     seen.add(z)
                     order.append(z)
-            A("```")
+            # A list rather than a code block: preformatted text cannot wrap, so
+            # the longest route line would set a minimum page width on a phone.
             step = 1
             for z in order:
-                A("%d. %s" % (step, zones.get(z, {}).get("name", z)))
+                zname = zones.get(z, {}).get("name", z)
+                A("**%d. %s**" % (step, zname))
+                A("")
+                # Group by NPC so someone who gives two quests is one stop.
+                npcs = []
                 for i, q in pre:
                     if q["giver"]["zone"] != z:
                         continue
                     g = q["giver"]
-                    line = "      %s  -  %s" % (g["npc"], q["name"])
+                    key = (g["npc"], g.get("x"), g.get("y"))
+                    for e in npcs:
+                        if e["key"] == key:
+                            e["quests"].append(q["name"])
+                            break
+                    else:
+                        npcs.append({"key": key, "g": g, "quests": [q["name"]]})
+                for e in npcs:
+                    g = e["g"]
+                    sub = g.get("sub")
+                    line = "- **%s**" % g["npc"]
+                    if sub:
+                        line += " — %s" % sub
                     A(line)
+                    for qn in e["quests"]:
+                        A("    - %s" % qn)
                     if has_coords(g):
-                        A("      %s" % way(zones.get(z, {}).get("name", z), g["x"], g["y"]))
+                        A("    - `%s`" % way(zname, g["x"], g["y"]))
+                A("")
                 step += 1
             if has_coords(ent):
-                A("%d. %s  -  dungeon entrance" % (step, zn))
-                A("      %s" % way(zn, ent["x"], ent["y"]))
-            A("```")
-            A("")
+                A("**%d. %s** — dungeon entrance" % (step, zn))
+                A("")
+                A("- `%s`" % way(zn, ent["x"], ent["y"]))
+                A("")
         else:
             A("Nothing to collect in advance — every quest here starts inside.")
             A("")
