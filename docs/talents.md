@@ -1,6 +1,6 @@
-# Talents
+# Talent Builds
 
-[← Index](index.md) · Prev: [Rotations](rotations.md) · Next: [Route](route.md)
+[← Index](index.md) · Prev: [Spell Rotations](rotations.md) · Next: [Leveling Routes](route.md)
 
 ---
 
@@ -174,4 +174,4 @@ Note that `Omen of Clarity` and `Nature's Grasp` are **trained, not talented** i
 
 ---
 
-[← Index](index.md) · Prev: [Rotations](rotations.md) · Next: [Route](route.md)
+[← Index](index.md) · Prev: [Spell Rotations](rotations.md) · Next: [Leveling Routes](route.md)

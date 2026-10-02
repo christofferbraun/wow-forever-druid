@@ -1,6 +1,6 @@
-# Forever vs Classic
+# What Changed in Forever
 
-[← Index](index.md) · Next: [The Druid Kit](druid-kit.md)
+[← Index](index.md) · Next: [Spells and Abilities](druid-kit.md)
 
 Forever is built on Classic, so almost all your Classic muscle memory transfers. These are the changes that actually change *decisions* while leveling 1–30.
 
@@ -98,4 +98,4 @@ Your level-30 goal lines up exactly with the final beta cap — and, convenientl
 
 ---
 
-[← Index](index.md) · Next: [The Druid Kit](druid-kit.md)
+[← Index](index.md) · Next: [Spells and Abilities](druid-kit.md)

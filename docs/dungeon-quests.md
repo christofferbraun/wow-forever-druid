@@ -1,6 +1,6 @@
-# Dungeon Quests 1 to 30
+# Dungeon Quests
 
-[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Gear](gear.md)
+[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Gear and Loot](gear.md)
 
 Every Horde-accessible dungeon from 1 to 30, in level order, with each quest's giver, turn-in, coordinates, and a copy-paste `/way` line.
 
@@ -90,17 +90,9 @@ Your first dungeon and the Horde counterpart to Alliance's Hall of Thanes. Entra
       /way Orgrimmar 52.8 49.6
 ```
 
-**1 start inside** and cannot be picked up in advance:
+**1 quest starts inside** and cannot be picked up in advance:
 
 - **Returning the Lost Satchel** — from Grimtotem Satchel (item, off Maur Grimtotem)
-
-### Maps
-
-![Ragefire Chasm quest locations in Orgrimmar](assets/maps/ragefire-chasm-orgrimmar.svg)
-
-![Ragefire Chasm quest locations in Thunder Bluff](assets/maps/ragefire-chasm-thunder-bluff.svg)
-
-![Ragefire Chasm quest locations in Undercity](assets/maps/ragefire-chasm-undercity.svg)
 
 ---
 
@@ -147,18 +139,10 @@ New in Forever and Horde-focused. Six Horde quests makes this the highest quest-
       /way Silverpine Forest 44.5 43
 ```
 
-**2 start inside** and cannot be picked up in advance:
+**2 quests start inside** and cannot be picked up in advance:
 
 - **Unending Torment** — from Abominable Head (item drop)
 - **Crest of Lordaeron** — from Item found inside
-
-### Maps
-
-![Ruins of Lordaeron quest locations in Undercity](assets/maps/ruins-of-lordaeron-undercity.svg)
-
-![Ruins of Lordaeron quest locations in Tirisfal Glades](assets/maps/ruins-of-lordaeron-tirisfal-glades.svg)
-
-![Ruins of Lordaeron quest locations in Silverpine Forest](assets/maps/ruins-of-lordaeron-silverpine-forest.svg)
 
 ---
 
@@ -213,15 +197,9 @@ The priority run of your bracket: Living Root drops off Verdan the Everliving. E
       /way The Barrens 46 36.3
 ```
 
-**1 start inside** and cannot be picked up in advance:
+**1 quest starts inside** and cannot be picked up in advance:
 
 - **The Glowing Shard** — from Glowing Shard (off Mutanus the Devourer)
-
-### Maps
-
-![Wailing Caverns quest locations in The Barrens](assets/maps/wailing-caverns-the-barrens.svg)
-
-![Wailing Caverns quest locations in Thunder Bluff](assets/maps/wailing-caverns-thunder-bluff.svg)
 
 ---
 
@@ -267,14 +245,6 @@ Pairs naturally with Ruins of Lordaeron - both are on the Undercity side of the 
       /way Silverpine Forest 44.5 68
 ```
 
-### Maps
-
-![Shadowfang Keep quest locations in Silverpine Forest](assets/maps/shadowfang-keep-silverpine-forest.svg)
-
-![Shadowfang Keep quest locations in Undercity](assets/maps/shadowfang-keep-undercity.svg)
-
-![Shadowfang Keep quest locations in The Barrens](assets/maps/shadowfang-keep-the-barrens.svg)
-
 ---
 
 <a id="blackfathom-deeps"></a>
@@ -315,17 +285,11 @@ Pairs with Ashenvale questing. Je'neu Sancrea at Zoram'gar Outpost is effectivel
       /way Ashenvale 14.5 14.6
 ```
 
-**3 start inside** and cannot be picked up in advance:
+**3 quests start inside** and cannot be picked up in advance:
 
 - **Allegiance to the Old Gods** — from Damp Note (drop)
 - **Blackfathom Villainy** — from Argent Guard Thaelrid
 - **Baron Aquanis** — from Strange Water Globe (off Baron Aquanis)
-
-### Maps
-
-![Blackfathom Deeps quest locations in Ashenvale](assets/maps/blackfathom-deeps-ashenvale.svg)
-
-![Blackfathom Deeps quest locations in Thunder Bluff](assets/maps/blackfathom-deeps-thunder-bluff.svg)
 
 ---
 
@@ -372,18 +336,10 @@ Southern Barrens, staged from Camp Taurajo. Note the level spread: Blueleaf Tube
       /way The Barrens 43 90
 ```
 
-**2 start inside** and cannot be picked up in advance:
+**2 quests start inside** and cannot be picked up in advance:
 
 - **Willix the Importer** — from Willix the Importer
 - **An Unholy Alliance** — from Small Scroll (off Charlga Razorflank)
-
-### Maps
-
-![Razorfen Kraul quest locations in The Barrens](assets/maps/razorfen-kraul-the-barrens.svg)
-
-![Razorfen Kraul quest locations in Undercity](assets/maps/razorfen-kraul-undercity.svg)
-
-![Razorfen Kraul quest locations in Thunder Bluff](assets/maps/razorfen-kraul-thunder-bluff.svg)
 
 ---
 
@@ -429,13 +385,9 @@ New in Forever, and Horde-accessible despite sitting in Alliance-leaning territo
       /way Wetlands 53.2 65.8
 ```
 
-**1 start inside** and cannot be picked up in advance:
+**1 quest starts inside** and cannot be picked up in advance:
 
 - **Elder Knowledge** — from Relic Guardian (drop)
-
-### Maps
-
-![Excavation Site: Wetlands quest locations in Wetlands](assets/maps/excavation-site-wetlands-wetlands.svg)
 
 ---
 
@@ -499,19 +451,9 @@ Your level-30 target. Four wings at different levels, so it stays useful well pa
       /way Tirisfal Glades 85 30
 ```
 
-**1 start inside** and cannot be picked up in advance:
+**1 quest starts inside** and cannot be picked up in advance:
 
 - **Vorrel's Revenge** — from Vorrel Sengutz
-
-### Maps
-
-![Scarlet Monastery quest locations in Undercity](assets/maps/scarlet-monastery-undercity.svg)
-
-![Scarlet Monastery quest locations in Tirisfal Glades](assets/maps/scarlet-monastery-tirisfal-glades.svg)
-
-![Scarlet Monastery quest locations in Hillsbrad Foothills](assets/maps/scarlet-monastery-hillsbrad-foothills.svg)
-
-![Scarlet Monastery quest locations in Thunder Bluff](assets/maps/scarlet-monastery-thunder-bluff.svg)
 
 ---
 
@@ -526,20 +468,7 @@ Your level-30 target. Four wings at different levels, so it stays useful well pa
 | 23 | Stormwind Stockade | Stormwind City | Inside the Alliance capital. |
 | 25 | Gnomeregan | Dun Morogh | Deep Alliance territory. |
 
----
-
-## Maintaining this page
-
-This page is generated. Do not edit it directly — edit [`data/dungeons.json`](https://github.com/christofferbraun/wow-forever-druid/blob/main/data/dungeons.json) and re-run:
-
-```sh
-python tools/build_quests.py
-```
-
-That rewrites this file and regenerates every map in `docs/assets/maps/`.
-
-**To use real zone maps as backgrounds:** screenshot or export a zone map, save it as `docs/assets/maps/bg/<zone-slug>.jpg`, and re-run the build. The marker layer is drawn on top at the same coordinates. Zone slugs are the keys in the `zones` object of the data file — for example `thunder-bluff.jpg`, `undercity.jpg`, `the-barrens.jpg`.
 
 ---
 
-[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Gear](gear.md)
+[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Gear and Loot](gear.md)

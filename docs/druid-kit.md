@@ -1,6 +1,6 @@
-# The Druid Kit
+# Spells and Abilities
 
-[← Index](index.md) · Prev: [Forever vs Classic](forever-vs-classic.md) · Next: [Rotations](rotations.md)
+[← Index](index.md) · Prev: [What Changed in Forever](forever-vs-classic.md) · Next: [Spell Rotations](rotations.md)
 
 What you have, what it's for, and when it shows up. Train levels are ❓ **verify at your trainer** — community databases disagree on a few, and Forever moved some spells around.
 
@@ -86,4 +86,4 @@ This makes Furor a Cat-weaving talent rather than a burst-opener talent. Less ap
 
 ---
 
-[← Index](index.md) · Prev: [Forever vs Classic](forever-vs-classic.md) · Next: [Rotations](rotations.md)
+[← Index](index.md) · Prev: [What Changed in Forever](forever-vs-classic.md) · Next: [Spell Rotations](rotations.md)

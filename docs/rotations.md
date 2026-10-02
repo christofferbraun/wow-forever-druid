@@ -1,6 +1,6 @@
-# Rotations
+# Spell Rotations
 
-[← Index](index.md) · Prev: [The Druid Kit](druid-kit.md) · Next: [Talents](talents.md)
+[← Index](index.md) · Prev: [Spells and Abilities](druid-kit.md) · Next: [Talent Builds](talents.md)
 
 ---
 
@@ -167,4 +167,4 @@ No Innervate (40), no Tranquility worth using at this level, no Wild Growth (40)
 
 ---
 
-[← Index](index.md) · Prev: [The Druid Kit](druid-kit.md) · Next: [Talents](talents.md)
+[← Index](index.md) · Prev: [Spells and Abilities](druid-kit.md) · Next: [Talent Builds](talents.md)

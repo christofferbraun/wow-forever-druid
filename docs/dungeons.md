@@ -1,6 +1,6 @@
 # Dungeons
 
-[← Index](index.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)
+[← Index](index.md) · Prev: [Travel and Flight Paths](travel.md) · Next: [Dungeon Quests](dungeon-quests.md)
 
 > **Read this first:** in Forever, dungeon **mob kill XP is way down** and dungeon **quest XP is much higher** 🔶. Walking into a dungeon without its quests wastes the run.
 >
@@ -25,7 +25,7 @@ Your first dungeon, and the Horde counterpart to Alliance's Hall of Thanes. 🔶
 
 **5 to collect before you go** — two from Rahauro in Thunder Bluff, two in Orgrimmar, one from Varimathras in Undercity. A sixth log entry appears mid-run: *Searching for the Lost Satchel* turns in to Maur Grimtotem inside the chasm, who hands back *Returning the Lost Satchel* for Thunder Bluff. That second half cannot be picked up in advance.
 
-➜ **[Full quest list, coordinates, `/way` lines and maps → Dungeon Quests: Ragefire Chasm](dungeon-quests.md#ragefire-chasm)**
+➜ **[Full quest list, coordinates and `/way` lines → Dungeon Quests: Ragefire Chasm](dungeon-quests.md#ragefire-chasm)**
 
 ❓ **Required level is disputed.** One Forever database lists all six at level 9; another at 15–16. Most likely one reports the minimum to accept and the other the recommended level. Check Rahauro at 12 — if the quests are there, take them.
 
@@ -122,4 +122,4 @@ Forever adds **9 new dungeons** total 🔶 alongside the returning Classic set.
 
 ---
 
-[← Index](index.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)
+[← Index](index.md) · Prev: [Travel and Flight Paths](travel.md) · Next: [Dungeon Quests](dungeon-quests.md)

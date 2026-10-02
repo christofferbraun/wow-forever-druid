@@ -1,6 +1,6 @@
-# Route: Mulgore, Thunder Bluff, The Barrens
+# Leveling Routes
 
-[← Index](index.md) · Prev: [Talents](talents.md) · Next: [Travel](travel.md)
+[← Index](index.md) · Prev: [Talent Builds](talents.md) · Next: [Travel and Flight Paths](travel.md)
 
 Zone bands and hub order. Level ranges are 🔶 community-sourced and approximate — treat them as "this hub is appropriate around here," not a gate.
 
@@ -117,4 +117,4 @@ Once the Barrens runs dry around 17–18:
 
 ---
 
-[← Index](index.md) · Prev: [Talents](talents.md) · Next: [Travel](travel.md)
+[← Index](index.md) · Prev: [Talent Builds](talents.md) · Next: [Travel and Flight Paths](travel.md)

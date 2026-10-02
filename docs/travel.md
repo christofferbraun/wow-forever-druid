@@ -1,6 +1,6 @@
-# Travel
+# Travel and Flight Paths
 
-[← Index](index.md) · Prev: [Route](route.md) · Next: [Dungeons](dungeons.md)
+[← Index](index.md) · Prev: [Leveling Routes](route.md) · Next: [Dungeons](dungeons.md)
 
 Druids get the best low-level travel toolkit in the game, and as a Horde druid you get a free one-way teleport loop that nobody else has. Set it up early.
 
@@ -105,4 +105,4 @@ Buy every path you walk past. Prices are trivial and you cannot buy them remotel
 
 ---
 
-[← Index](index.md) · Prev: [Route](route.md) · Next: [Dungeons](dungeons.md)
+[← Index](index.md) · Prev: [Leveling Routes](route.md) · Next: [Dungeons](dungeons.md)

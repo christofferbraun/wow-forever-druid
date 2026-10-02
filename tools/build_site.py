@@ -16,7 +16,6 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "README.md")
 DST = os.path.join(ROOT, "docs", "index.md")
 
-BANNER = ("<!-- Generated from README.md by tools/build_site.py. Do not edit. -->\n")
 
 
 def main():
@@ -29,12 +28,9 @@ def main():
     # docs/foo.md -> foo.md   (links are relative to docs/ once inside index.md)
     text = re.sub(r"\]\(docs/([^)]+)\)", r"](\1)", text)
 
-    # The repo-layout table points at paths that only make sense on GitHub.
-    text = text.replace("](docs/dungeon-quests.md)", "](dungeon-quests.md)")
-
     front = "---\ntitle: Overview\n---\n\n"
     with open(DST, "w", encoding="utf-8", newline="\n") as f:
-        f.write(front + BANNER + "\n" + text)
+        f.write(front + text)
 
     print("wrote %s" % os.path.relpath(DST, ROOT))
     return 0

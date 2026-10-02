@@ -1,6 +1,6 @@
-# Open Questions and Changelog
+# Open Questions
 
-[← Index](index.md) · Prev: [Breakpoints](breakpoints.md)
+[← Index](index.md) · Prev: [Level Breakpoints](breakpoints.md)
 
 This document was built from Blizzard's own beta notes plus community Forever databases, and the community sources disagree with each other in places. Everything below is something to settle in-game and then fix in place.
 
@@ -40,9 +40,9 @@ These change decisions, so settle them first.
 
 ---
 
-## Decisions already made
+## Positions this guide takes
 
-Recorded so they do not get re-litigated.
+Where the sources allow more than one reading, these are the calls this guide makes and why.
 
 | Decision | Reasoning |
 |---|---|
@@ -56,21 +56,6 @@ Recorded so they do not get re-litigated.
 | **Take the caster/cloth option on every quest reward.** | Armour type is a rounding error at this level; Intellect and spell power are not. |
 | **Wailing Caverns at 17 is a priority, not optional.** | Living Root is the biggest single upgrade in the bracket. [Why](gear.md#weapons-your-biggest-slot). |
 | **Skip the Fang set on stats.** | It is agility/stamina feral gear. Chase it for the snake Cat Form if you want it 🔶, not for healing. |
-
----
-
-## Wanted: things worth adding as you learn them
-
-- [ ] Actual talent tooltips and numbers, copied from the game rather than a calculator
-- [ ] A real Barrens quest route with coordinates, once you have run it
-- [ ] Wailing Caverns quest pickup list, same treatment as [the RFC pickup run](dungeon-quests.md#ragefire-chasm)
-- [ ] Ruins of Lordaeron — brand new in Forever, almost nothing written about it yet. Worth documenting properly.
-- [ ] Which Legacy perks you actually took, and whether the rested-XP ones felt worth it
-- [ ] A verified Horde quest-reward list for 1–20 — the published lists are Alliance- and Tailoring-skewed and thin on Horde items
-- [ ] Your actual book count, and which zones you still need to sweep
-- [ ] Whether a well-rolled AH green really does beat quest gear at 12–20, once you have prices
-- [ ] Whether Resto kill speed is genuinely tolerable in practice, or whether the Balance dip became necessary
-- [ ] Professions — Leatherworking looks load-bearing for the rested-XP tent 🔶. Worth it?
 
 ---
 
@@ -95,8 +80,6 @@ Where two community sources disagreed, both readings are noted in place rather t
 
 | 2026-09-28 | Added [Gear](gear.md). Key finding: Forever makes bonus healing grant ⅓ its value as bonus damage ✅ and puts spell damage/healing on caster weapons from level 10 ✅ — so healing gear is now leveling gear and one set covers both jobs. Documented the library-book jewellery (no level requirement), Living Root as the bracket's standout drop, and the Alliance skew in every published staff progression. |
 
-Add a row whenever you correct something. Keep it terse.
-
 ---
 
-[← Index](index.md) · Prev: [Breakpoints](breakpoints.md)
+[← Index](index.md) · Prev: [Level Breakpoints](breakpoints.md)

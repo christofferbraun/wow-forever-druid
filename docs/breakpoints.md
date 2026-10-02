@@ -1,6 +1,6 @@
-# Breakpoints
+# Level Breakpoints
 
-[← Index](index.md) · Prev: [Gear](gear.md) · Next: [Open Questions](open-questions.md)
+[← Index](index.md) · Prev: [Gear and Loot](gear.md) · Next: [Open Questions](open-questions.md)
 
 The levels where something actually changes. Everything else is just a bigger health bar.
 
@@ -89,4 +89,4 @@ This is the cleanest way to see why 30 is a natural stopping point: it is a mile
 
 ---
 
-[← Index](index.md) · Prev: [Gear](gear.md) · Next: [Open Questions](open-questions.md)
+[← Index](index.md) · Prev: [Gear and Loot](gear.md) · Next: [Open Questions](open-questions.md)

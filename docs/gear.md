@@ -1,6 +1,6 @@
-# Gear, 1 to 20
+# Gear and Loot
 
-[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Breakpoints](breakpoints.md)
+[← Index](index.md) · Prev: [Dungeon Quests](dungeon-quests.md) · Next: [Level Breakpoints](breakpoints.md)
 
 > **Standing caveat for this whole document.** The Forever loot databases say it themselves: *"Loot is still being discovered. Drops for the original dungeons come from the Classic Era loot tables and may have moved."* 🔶 Blizzard has also said quest rewards and dungeon drops are under active review with new rewards and improved sets 🔶. Treat every specific item below as a lead to check on Wowhead's Forever database, not a promise. The **principles** in the first two sections are solid; the item lists will drift.
 
@@ -256,4 +256,4 @@ Stop optimising past that. At 12–20 the stat totals are small enough that a we
 
 ---
 
-[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Breakpoints](breakpoints.md)
+[← Index](index.md) · Prev: [Dungeon Quests](dungeon-quests.md) · Next: [Level Breakpoints](breakpoints.md)
