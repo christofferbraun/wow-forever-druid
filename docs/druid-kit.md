@@ -1,12 +1,12 @@
 # The Druid Kit
 
-[← Index](../README.md) · Prev: [Forever vs Classic](forever-vs-classic.md) · Next: [Rotations](rotations.md)
+[← Index](index.md) · Prev: [Forever vs Classic](forever-vs-classic.md) · Next: [Rotations](rotations.md)
 
 What you have, what it's for, and when it shows up. Train levels are ❓ **verify at your trainer** — community databases disagree on a few, and Forever moved some spells around.
 
 ---
 
-## What you have at 12 (where you are now)
+## What you have at 12
 
 | Spell | Role | Notes |
 |---|---|---|
@@ -25,7 +25,7 @@ What you have, what it's for, and when it shows up. Train levels are ❓ **verif
 
 ---
 
-## Coming up: 13 → 30
+## Coming up: 13 to 30
 
 | Level | Unlock | Why it matters |
 |---|---|---|
@@ -50,25 +50,25 @@ The Resto capstone is a level-40 spell. That's the key constraint on your 30 goa
 
 ## The three Forever changes that change how you play
 
-### Thorns is damage ✅
+### Thorns is damage
 
 It scales with spell power now. Two consequences:
 
 1. **Never let it drop.** Re-apply on cooldown/expiry, the way you'd treat a DoT.
-2. It only deals damage **when something hits you** — which means your [bear phase](rotations.md#phase-2--the-bear-phase) is now doing passive damage the whole time. This is what makes tanky Resto soloing tolerable.
+2. It only deals damage **when something hits you** — which means your [bear phase](rotations.md#phase-2-the-bear-phase) is now doing passive damage the whole time. This is what makes tanky Resto soloing tolerable.
 
-### Rejuvenation can crit ✅
+### Rejuvenation can crit
 
 Your cheapest heal now has a damage-spell's variance in your favour. Combined with `Improved Rejuvenation` and `Gift of Nature`, a self-Rejuv is often enough sustain to never stop moving between pulls.
 
-### Swiftmend was rebuilt 🔶
+### Swiftmend was rebuilt
 
 **Classic:** consumed 12 seconds of Rejuvenation or 18 seconds of Regrowth and healed that amount.
 **Forever:** heals for an amount equal to the **full duration** of the active Rejuvenation or Regrowth.
 
 That's a large buff, and it changes the sequencing — you want to Swiftmend a *fresh* HoT, not a nearly-expired one. You get it at 25.
 
-### Furor was rebuilt 🔶
+### Furor was rebuilt
 
 **Classic:** 40 Energy on shifting to Cat, or a chance at 10 Rage in Bear.
 **Forever:** Cat Form restores **20% of the Energy you had when you last left Cat Form, plus 2 Energy per second spent outside forms**, capped at 20 Energy.
@@ -86,4 +86,4 @@ This makes Furor a Cat-weaving talent rather than a burst-opener talent. Less ap
 
 ---
 
-[← Index](../README.md) · Prev: [Forever vs Classic](forever-vs-classic.md) · Next: [Rotations](rotations.md)
+[← Index](index.md) · Prev: [Forever vs Classic](forever-vs-classic.md) · Next: [Rotations](rotations.md)

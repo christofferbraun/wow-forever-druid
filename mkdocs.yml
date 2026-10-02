@@ -1,0 +1,94 @@
+site_name: Tauren Resto Druid — WoW Forever
+site_description: >-
+  Leveling reference for a Horde Tauren Restoration Druid in World of Warcraft:
+  Forever, covering levels 1 to 30.
+site_url: https://christofferbraun.github.io/wow-forever-druid/
+repo_url: https://github.com/christofferbraun/wow-forever-druid
+repo_name: wow-forever-druid
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: _site
+
+theme:
+  name: material
+  icon:
+    logo: material/leaf
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system theme
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
+
+nav:
+  - Overview: index.md
+  - Forever vs Classic: forever-vs-classic.md
+  - The Druid Kit: druid-kit.md
+  - Rotations: rotations.md
+  - Talents: talents.md
+  - Route — Mulgore to Barrens: route.md
+  - Travel: travel.md
+  - Dungeons: dungeons.md
+  - Dungeon Quests: dungeon-quests.md
+  - Gear: gear.md
+  - Breakpoints: breakpoints.md
+  - Open Questions: open-questions.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/christofferbraun/wow-forever-druid
+      name: Source on GitHub
+
+# README.md is the GitHub landing page; docs/index.md is generated from it by
+# tools/build_site.py so the two never drift.
+not_in_nav: |
+  assets/**

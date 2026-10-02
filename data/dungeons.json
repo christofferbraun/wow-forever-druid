@@ -1,0 +1,526 @@
+{
+  "meta": {
+    "updated": "2026-10-02",
+    "scope": "Horde-accessible dungeons, levels 1-30, WoW: Forever beta",
+    "confidence_legend": {
+      "blizzard": "Confirmed in a Blizzard source",
+      "community": "Forever community database, cross-checked where two agreed",
+      "verify": "Unconfirmed - verify in-game before relying on it"
+    },
+    "coord_source": "zockify.com Forever dungeon pages, Oct 2026",
+    "coord_caveat": "Coordinates are community-sourced and Forever is in beta. Verify before a long ride."
+  },
+
+  "zones": {
+    "thunder-bluff":      { "name": "Thunder Bluff",      "kind": "city" },
+    "orgrimmar":          { "name": "Orgrimmar",          "kind": "city" },
+    "undercity":          { "name": "Undercity",          "kind": "city" },
+    "mulgore":            { "name": "Mulgore",            "kind": "zone" },
+    "the-barrens":        { "name": "The Barrens",        "kind": "zone" },
+    "ashenvale":          { "name": "Ashenvale",          "kind": "zone" },
+    "tirisfal-glades":    { "name": "Tirisfal Glades",    "kind": "zone" },
+    "silverpine-forest":  { "name": "Silverpine Forest",  "kind": "zone" },
+    "hillsbrad-foothills":{ "name": "Hillsbrad Foothills","kind": "zone" },
+    "wetlands":           { "name": "Wetlands",           "kind": "zone" },
+    "arathi-highlands":   { "name": "Arathi Highlands",   "kind": "zone" },
+    "alterac-mountains":  { "name": "Alterac Mountains",  "kind": "zone" },
+    "inside":             { "name": "Inside the dungeon", "kind": "instance" }
+  },
+
+  "dungeons": [
+    {
+      "slug": "ragefire-chasm",
+      "name": "Ragefire Chasm",
+      "abbr": "RFC",
+      "rec_level": 13,
+      "range": "13-19",
+      "entrance": { "zone": "orgrimmar", "sub": "The Cleft of Shadow", "x": 52.8, "y": 49.6, "confidence": "community" },
+      "bosses": ["Oggleflint", "Taragaman the Hungerer", "Jergosh the Invoker", "Bazzalan"],
+      "quest_count_note": "5 quests to pick up. The satchel chain has two parts, so the log shows 6 entries across a full clear.",
+      "summary": "Your first dungeon and the Horde counterpart to Alliance's Hall of Thanes. Entrance is inside Orgrimmar, so the ride is short once you have the Orgrimmar flight path.",
+      "quests": [
+        {
+          "name": "Searching for the Lost Satchel",
+          "level": 9,
+          "faction": "Horde",
+          "chain": "1 of 2",
+          "objective": "Find the Grimtotem Satchel inside the chasm.",
+          "giver":  { "npc": "Rahauro", "zone": "thunder-bluff", "sub": "The Elder Rise", "x": 70.6, "y": 29.6 },
+          "turnin": { "npc": "Maur Grimtotem", "zone": "inside", "sub": "Inside Ragefire Chasm" }
+        },
+        {
+          "name": "Returning the Lost Satchel",
+          "level": 9,
+          "faction": "Horde",
+          "chain": "2 of 2",
+          "objective": "Carry the satchel back to Thunder Bluff. Granted by the satchel itself - you cannot pick this up in advance.",
+          "giver":  { "npc": "Grimtotem Satchel (item, off Maur Grimtotem)", "zone": "inside", "sub": "Inside Ragefire Chasm" },
+          "turnin": { "npc": "Rahauro", "zone": "thunder-bluff", "sub": "The Elder Rise", "x": 70.6, "y": 29.6 }
+        },
+        {
+          "name": "Testing an Enemy's Strength",
+          "level": 9,
+          "faction": "Horde",
+          "objective": "Kill Oggleflint.",
+          "giver":  { "npc": "Rahauro", "zone": "thunder-bluff", "sub": "The Elder Rise", "x": 70.6, "y": 29.6 },
+          "turnin": { "npc": "Rahauro", "zone": "thunder-bluff", "sub": "The Elder Rise", "x": 70.6, "y": 29.6 }
+        },
+        {
+          "name": "Slaying the Beast",
+          "level": 9,
+          "faction": "Horde",
+          "objective": "Kill Taragaman the Hungerer.",
+          "giver":  { "npc": "Neeru Fireblade", "zone": "orgrimmar", "sub": "The Cleft of Shadow", "x": 49.6, "y": 50.6, "note": "Standing a few steps from the dungeon entrance." },
+          "turnin": { "npc": "Neeru Fireblade", "zone": "orgrimmar", "sub": "The Cleft of Shadow", "x": 49.6, "y": 50.6 }
+        },
+        {
+          "name": "Hidden Enemies",
+          "level": 9,
+          "faction": "Horde",
+          "chain": "part of a longer Shadow Council chain",
+          "objective": "Shadow Council investigation. Requires earlier chain steps.",
+          "giver":  { "npc": "Thrall", "zone": "orgrimmar", "sub": "The Valley of Wisdom", "x": 32.0, "y": 37.8 },
+          "turnin": { "npc": "Thrall", "zone": "orgrimmar", "sub": "The Valley of Wisdom", "x": 32.0, "y": 37.8 }
+        },
+        {
+          "name": "The Power to Destroy...",
+          "level": 9,
+          "faction": "Horde",
+          "objective": "Kill Jergosh the Invoker.",
+          "giver":  { "npc": "Varimathras", "zone": "undercity", "sub": "Royal Quarter", "x": 56.6, "y": 92.6 },
+          "turnin": { "npc": "Varimathras", "zone": "undercity", "sub": "Royal Quarter", "x": 56.6, "y": 92.6 }
+        }
+      ]
+    },
+
+    {
+      "slug": "ruins-of-lordaeron",
+      "name": "Ruins of Lordaeron",
+      "abbr": "RoL",
+      "rec_level": 15,
+      "range": "15-20",
+      "new_in_forever": true,
+      "entrance": { "zone": "undercity", "sub": "Undercity", "confidence": "verify" },
+      "bosses": ["The Baron", "Witherfang", "The Abandoned", "Bjork", "Rath'mael", "Deathsworn Captain", "Viktor the Vile"],
+      "quest_count_note": "6 Horde quests - the most in your bracket. Four are collectable in advance; two start from items inside.",
+      "summary": "New in Forever and Horde-focused. Six Horde quests makes this the highest quest-XP run in the 15-20 band. Four of the six givers and five of the turn-ins are in Undercity or a short ride from it.",
+      "quests": [
+        {
+          "name": "The Wrath of Rath'mael",
+          "level": 15,
+          "faction": "Horde",
+          "giver":  { "npc": "Deathguard Kristof", "zone": "tirisfal-glades", "sub": "Profession camp southeast of Brill", "x": 65.2, "y": 60.1 },
+          "turnin": { "npc": "Deathguard Kristof", "zone": "tirisfal-glades", "sub": "Profession camp southeast of Brill", "x": 65.2, "y": 60.1 }
+        },
+        {
+          "name": "Light's Justice",
+          "level": 15,
+          "faction": "Horde",
+          "giver":  { "npc": "Morbin Lightbane", "zone": "undercity", "sub": "Royal Quarter", "x": 58.3, "y": 89.7 },
+          "turnin": { "npc": "Morbin Lightbane", "zone": "undercity", "sub": "Royal Quarter", "x": 58.3, "y": 89.7 }
+        },
+        {
+          "name": "A Frightened Request",
+          "level": 15,
+          "faction": "Horde",
+          "giver":  { "npc": "Tabitha Heartweaver", "zone": "silverpine-forest", "sub": "The Sepulcher", "x": 44.5, "y": 43.0 },
+          "turnin": { "npc": "Tabitha Heartweaver", "zone": "silverpine-forest", "sub": "The Sepulcher", "x": 44.5, "y": 43.0 }
+        },
+        {
+          "name": "The New Plague",
+          "level": 16,
+          "faction": "Horde",
+          "giver":  { "npc": "Theodore Griffs", "zone": "undercity", "sub": "The Apothecarium", "x": 46.5, "y": 71.6 },
+          "turnin": { "npc": "Theodore Griffs", "zone": "undercity", "sub": "The Apothecarium", "x": 46.5, "y": 71.6 }
+        },
+        {
+          "name": "Unending Torment",
+          "level": 16,
+          "faction": "Horde",
+          "objective": "Starts from the Abominable Head, dropped inside. Cannot be picked up in advance.",
+          "giver":  { "npc": "Abominable Head (item drop)", "zone": "inside", "sub": "Inside Ruins of Lordaeron" },
+          "turnin": { "npc": "Master Apothecary Faranell", "zone": "undercity", "sub": "The Apothecarium", "x": 48.6, "y": 69.6 }
+        },
+        {
+          "name": "Crest of Lordaeron",
+          "level": 16,
+          "faction": "Horde",
+          "objective": "Starts from an item found inside. Cannot be picked up in advance.",
+          "giver":  { "npc": "Item found inside", "zone": "inside", "sub": "Inside Ruins of Lordaeron" },
+          "turnin": { "npc": "Oran Snakewrithe", "zone": "undercity", "sub": "Magic Quarter", "x": 73.6, "y": 32.6 }
+        }
+      ]
+    },
+
+    {
+      "slug": "wailing-caverns",
+      "name": "Wailing Caverns",
+      "abbr": "WC",
+      "rec_level": 17,
+      "range": "17-24",
+      "entrance": { "zone": "the-barrens", "sub": "The skull-shaped cave, Lushwater Oasis area", "x": 46.0, "y": 36.3, "confidence": "community" },
+      "bosses": ["Lady Anacondra", "Lord Cobrahn", "Kresh", "Lord Pythas", "Skum", "Lord Serpentis", "Verdan the Everliving", "Mutanus the Devourer", "Deviate Faerie Dragon"],
+      "quest_count_note": "7 quests - 2 Horde-only, 4 shared, 1 starts from a boss drop. Two of the givers stand at the entrance itself.",
+      "summary": "The priority run of your bracket: Living Root drops off Verdan the Everliving. Entrance is in the Barrens where you are already questing, and Nalpak and Ebru stand in the entrance cave so you can grab two quests on arrival.",
+      "gear_note": "Living Root (+15 spell power, +45 healing, 14.7 DPS staff) drops from Verdan the Everliving. The biggest single upgrade available to you before 25.",
+      "quests": [
+        {
+          "name": "Serpentbloom",
+          "level": 14,
+          "faction": "Horde",
+          "objective": "Collect 10 Serpentbloom from inside.",
+          "giver":  { "npc": "Apothecary Zamah", "zone": "thunder-bluff", "sub": "The Spirit Rise", "x": 23.6, "y": 21.4 },
+          "turnin": { "npc": "Apothecary Zamah", "zone": "thunder-bluff", "sub": "The Spirit Rise", "x": 23.6, "y": 21.4 }
+        },
+        {
+          "name": "Leaders of the Fang",
+          "level": 10,
+          "faction": "Horde",
+          "chain": "requires the Forgotten Pools chain first",
+          "objective": "Collect four gems from the Fang bosses.",
+          "giver":  { "npc": "Nara Wildmane", "zone": "thunder-bluff", "sub": "The Elder Rise", "x": 75.6, "y": 31.2 },
+          "turnin": { "npc": "Nara Wildmane", "zone": "thunder-bluff", "sub": "The Elder Rise", "x": 75.6, "y": 31.2 }
+        },
+        {
+          "name": "Smart Drinks",
+          "level": 13,
+          "faction": "Both",
+          "chain": "requires Raptor Horns first",
+          "objective": "Collect 6 Wailing Essence.",
+          "giver":  { "npc": "Mebok Mizzyrix", "zone": "the-barrens", "sub": "Ratchet", "x": 62.4, "y": 37.6 },
+          "turnin": { "npc": "Mebok Mizzyrix", "zone": "the-barrens", "sub": "Ratchet", "x": 62.4, "y": 37.6 }
+        },
+        {
+          "name": "Trouble at the Docks",
+          "level": 14,
+          "faction": "Both",
+          "objective": "Retrieve the crate from Mad Magglish, outside the instance.",
+          "giver":  { "npc": "Crane Operator Bigglefuzz", "zone": "the-barrens", "sub": "Ratchet", "x": 63.0, "y": 37.4 },
+          "turnin": { "npc": "Crane Operator Bigglefuzz", "zone": "the-barrens", "sub": "Ratchet", "x": 63.0, "y": 37.4 }
+        },
+        {
+          "name": "Deviate Hides",
+          "level": 13,
+          "faction": "Both",
+          "objective": "Collect 20 Deviate Hide.",
+          "giver":  { "npc": "Nalpak", "zone": "the-barrens", "sub": "Wailing Caverns entrance cave", "x": 46.0, "y": 35.0, "note": "Standing in the entrance cave - grab on arrival." },
+          "turnin": { "npc": "Nalpak", "zone": "the-barrens", "sub": "Wailing Caverns entrance cave", "x": 46.0, "y": 35.0 }
+        },
+        {
+          "name": "Deviate Eradication",
+          "level": 15,
+          "faction": "Both",
+          "objective": "Kill 28 Deviate creatures inside.",
+          "giver":  { "npc": "Ebru", "zone": "the-barrens", "sub": "Wailing Caverns entrance cave", "x": 46.0, "y": 35.0, "note": "Next to Nalpak at the entrance." },
+          "turnin": { "npc": "Ebru", "zone": "the-barrens", "sub": "Wailing Caverns entrance cave", "x": 46.0, "y": 35.0 }
+        },
+        {
+          "name": "The Glowing Shard",
+          "level": 15,
+          "faction": "Both",
+          "objective": "Starts from a drop off Mutanus the Devourer. Routes via Sputtervalve in Ratchet.",
+          "giver":  { "npc": "Glowing Shard (off Mutanus the Devourer)", "zone": "inside", "sub": "Inside Wailing Caverns" },
+          "turnin": { "npc": "Falla Sagewind", "zone": "the-barrens", "sub": "The Barrens", "x": 48.2, "y": 32.8, "note": "Intermediate step at Sputtervalve, Ratchet (63.0, 37.2)." }
+        }
+      ]
+    },
+
+    {
+      "slug": "shadowfang-keep",
+      "name": "Shadowfang Keep",
+      "abbr": "SFK",
+      "rec_level": 18,
+      "range": "18-25",
+      "entrance": { "zone": "silverpine-forest", "sub": "Southwest Silverpine", "x": 44.5, "y": 68.0, "confidence": "community" },
+      "bosses": ["Rethilgore", "Razorclaw the Butcher", "Baron Silverlaine", "Commander Springvale", "Odo the Blindwatcher", "Fenrus the Devourer", "Wolf Master Nandos", "Archmage Arugal"],
+      "quest_count_note": "3 Horde quests, plus one warlock-only. All three Horde givers are in Undercity or Silverpine, so this pairs with Ruins of Lordaeron on the same trip.",
+      "summary": "Pairs naturally with Ruins of Lordaeron - both are on the Undercity side of the world. Good caster gear, and the Horde quest here rewards Ghostly Mantle.",
+      "gear_note": "Odo's Ley Staff is the Horde-side caster staff alternative to Staff of Westfall. Ghostly Mantle comes from Deathstalkers in Shadowfang.",
+      "quests": [
+        {
+          "name": "The Book of Ur",
+          "level": 16,
+          "faction": "Horde",
+          "objective": "Recover the Book of Ur from inside. Rewards Tattered Mittens.",
+          "giver":  { "npc": "Keeper Bel'dugur", "zone": "undercity", "sub": "The Apothecarium", "x": 54.0, "y": 54.6 },
+          "turnin": { "npc": "Keeper Bel'dugur", "zone": "undercity", "sub": "The Apothecarium", "x": 54.0, "y": 54.6 }
+        },
+        {
+          "name": "Arugal Must Die",
+          "level": 18,
+          "faction": "Horde",
+          "objective": "Kill Archmage Arugal.",
+          "giver":  { "npc": "Dalar Dawnweaver", "zone": "silverpine-forest", "sub": "The Sepulcher", "x": 44.2, "y": 39.8 },
+          "turnin": { "npc": "Dalar Dawnweaver", "zone": "silverpine-forest", "sub": "The Sepulcher", "x": 44.2, "y": 39.8 }
+        },
+        {
+          "name": "Deathstalkers in Shadowfang",
+          "level": 18,
+          "faction": "Horde",
+          "objective": "Find Deathstalker Vincent inside. Rewards Ghostly Mantle.",
+          "giver":  { "npc": "High Executor Hadrec", "zone": "silverpine-forest", "sub": "The Sepulcher, basement", "x": 43.4, "y": 40.8 },
+          "turnin": { "npc": "Deathstalker Vincent", "zone": "inside", "sub": "Inside Shadowfang Keep" }
+        },
+        {
+          "name": "The Orb of Soran'ruk",
+          "level": 20,
+          "faction": "Both",
+          "class_only": "Warlock",
+          "objective": "Warlock class quest. Not applicable to a druid - listed for group planning.",
+          "giver":  { "npc": "Doan Karhan", "zone": "the-barrens", "sub": "The Barrens", "x": 49.2, "y": 57.2 },
+          "turnin": { "npc": "Doan Karhan", "zone": "the-barrens", "sub": "The Barrens", "x": 49.2, "y": 57.2 }
+        }
+      ]
+    },
+
+    {
+      "slug": "blackfathom-deeps",
+      "name": "Blackfathom Deeps",
+      "abbr": "BFD",
+      "rec_level": 22,
+      "range": "22-30",
+      "entrance": { "zone": "ashenvale", "sub": "Northwest coast, Zoram Strand", "x": 14.5, "y": 14.6, "confidence": "community" },
+      "bosses": ["Ghamoo-ra", "Lady Sarevess", "Gelihast", "Baron Aquanis", "Twilight Lord Kelris", "Old Serra'kis", "Aku'mai"],
+      "quest_count_note": "5 Horde quests. Four of the five route through one NPC - Je'neu Sancrea at Zoram'gar Outpost - so the pickup is unusually cheap.",
+      "summary": "Pairs with Ashenvale questing. Je'neu Sancrea at Zoram'gar Outpost is effectively the quest hub for this dungeon: four of the five Horde quests start or end with him, and he is close to the entrance.",
+      "quests": [
+        {
+          "name": "The Essence of Aku'Mai",
+          "level": 17,
+          "faction": "Horde",
+          "giver":  { "npc": "Je'neu Sancrea", "zone": "ashenvale", "sub": "Zoram'gar Outpost", "x": 11.6, "y": 34.2 },
+          "turnin": { "npc": "Je'neu Sancrea", "zone": "ashenvale", "sub": "Zoram'gar Outpost", "x": 11.6, "y": 34.2 }
+        },
+        {
+          "name": "Allegiance to the Old Gods",
+          "level": 17,
+          "faction": "Horde",
+          "objective": "Starts from a Damp Note drop; chains back to Je'neu Sancrea.",
+          "giver":  { "npc": "Damp Note (drop)", "zone": "inside", "sub": "Inside Blackfathom Deeps" },
+          "turnin": { "npc": "Je'neu Sancrea", "zone": "ashenvale", "sub": "Zoram'gar Outpost", "x": 11.6, "y": 34.2 }
+        },
+        {
+          "name": "Blackfathom Villainy",
+          "level": 18,
+          "faction": "Horde",
+          "objective": "Picked up from Argent Guard Thaelrid inside the instance.",
+          "giver":  { "npc": "Argent Guard Thaelrid", "zone": "inside", "sub": "Inside Blackfathom Deeps" },
+          "turnin": { "npc": "Bashana Runetotem", "zone": "thunder-bluff", "sub": "The Elder Rise", "x": 70.8, "y": 33.8 }
+        },
+        {
+          "name": "Baron Aquanis",
+          "level": 21,
+          "faction": "Horde",
+          "objective": "Starts from the Strange Water Globe off Baron Aquanis.",
+          "giver":  { "npc": "Strange Water Globe (off Baron Aquanis)", "zone": "inside", "sub": "Inside Blackfathom Deeps" },
+          "turnin": { "npc": "Je'neu Sancrea", "zone": "ashenvale", "sub": "Zoram'gar Outpost", "x": 11.6, "y": 34.2 }
+        },
+        {
+          "name": "Amongst the Ruins",
+          "level": 21,
+          "faction": "Horde",
+          "giver":  { "npc": "Je'neu Sancrea", "zone": "ashenvale", "sub": "Zoram'gar Outpost", "x": 11.6, "y": 34.2 },
+          "turnin": { "npc": "Je'neu Sancrea", "zone": "ashenvale", "sub": "Zoram'gar Outpost", "x": 11.6, "y": 34.2 }
+        }
+      ]
+    },
+
+    {
+      "slug": "razorfen-kraul",
+      "name": "Razorfen Kraul",
+      "abbr": "RFK",
+      "rec_level": 24,
+      "range": "24-32",
+      "entrance": { "zone": "the-barrens", "sub": "Southern Barrens", "x": 43.0, "y": 90.0, "confidence": "verify" },
+      "bosses": ["Roogug", "Aggem Thorncurse", "Death Speaker Jargba", "Overlord Ramtusk", "Agathelos the Raging", "Charlga Razorflank"],
+      "quest_count_note": "4 Horde quests plus one shared and one warrior-only. Several are level 29-30, so this dungeon stays relevant right to your beta cap.",
+      "summary": "Southern Barrens, staged from Camp Taurajo. Note the level spread: Blueleaf Tubers opens at 20 but A Vengeful Fate and Going, Going, Guano! are 29-30, so you may run this twice across the 24-30 stretch.",
+      "quests": [
+        {
+          "name": "Blueleaf Tubers",
+          "level": 20,
+          "faction": "Both",
+          "giver":  { "npc": "Mebok Mizzyrix", "zone": "the-barrens", "sub": "Ratchet", "x": 62.4, "y": 37.6 },
+          "turnin": { "npc": "Mebok Mizzyrix", "zone": "the-barrens", "sub": "Ratchet", "x": 62.4, "y": 37.6 }
+        },
+        {
+          "name": "Willix the Importer",
+          "level": 25,
+          "faction": "Both",
+          "objective": "Escort quest. Picked up inside the instance.",
+          "giver":  { "npc": "Willix the Importer", "zone": "inside", "sub": "Inside Razorfen Kraul" },
+          "turnin": { "npc": "Willix the Importer", "zone": "inside", "sub": "Inside Razorfen Kraul" }
+        },
+        {
+          "name": "A Vengeful Fate",
+          "level": 29,
+          "faction": "Horde",
+          "giver":  { "npc": "Auld Stonespire", "zone": "thunder-bluff", "sub": "Thunder Bluff", "x": 36.8, "y": 59.6 },
+          "turnin": { "npc": "Auld Stonespire", "zone": "thunder-bluff", "sub": "Thunder Bluff", "x": 36.8, "y": 59.6 }
+        },
+        {
+          "name": "An Unholy Alliance",
+          "level": 29,
+          "faction": "Horde",
+          "objective": "Starts from a Small Scroll off Charlga Razorflank.",
+          "giver":  { "npc": "Small Scroll (off Charlga Razorflank)", "zone": "inside", "sub": "Inside Razorfen Kraul" },
+          "turnin": { "npc": "Varimathras", "zone": "undercity", "sub": "Royal Quarter", "x": 56.6, "y": 92.6 }
+        },
+        {
+          "name": "Going, Going, Guano!",
+          "level": 30,
+          "faction": "Horde",
+          "giver":  { "npc": "Master Apothecary Faranell", "zone": "undercity", "sub": "The Apothecarium", "x": 48.6, "y": 69.6 },
+          "turnin": { "npc": "Master Apothecary Faranell", "zone": "undercity", "sub": "The Apothecarium", "x": 48.6, "y": 69.6 }
+        },
+        {
+          "name": "Brutal Armor",
+          "level": 20,
+          "faction": "Horde",
+          "class_only": "Warrior",
+          "objective": "Warrior class quest. Not applicable to a druid - listed for group planning.",
+          "giver":  { "npc": "Thun'grim Firegaze", "zone": "the-barrens", "sub": "The Barrens", "x": 57.2, "y": 30.2 },
+          "turnin": { "npc": "Thun'grim Firegaze", "zone": "the-barrens", "sub": "The Barrens", "x": 57.2, "y": 30.2 }
+        }
+      ]
+    },
+
+    {
+      "slug": "excavation-site-wetlands",
+      "name": "Excavation Site: Wetlands",
+      "abbr": "ESW",
+      "rec_level": 26,
+      "range": "24-29",
+      "new_in_forever": true,
+      "entrance": { "zone": "wetlands", "sub": "Near Thelgen Rock", "x": 53.2, "y": 65.8, "confidence": "community" },
+      "bosses": ["Relic Guardian", "(remaining bosses not yet documented)"],
+      "quest_count_note": "5 Horde quests. Horde access is confirmed - this answers an open question from earlier in the doc.",
+      "summary": "New in Forever, and Horde-accessible despite sitting in Alliance-leaning territory. The Deathstalker Agent at the instance entrance is the local hub. Several giver coordinates are not yet published.",
+      "coord_warning": true,
+      "quests": [
+        {
+          "name": "Changing Tastes",
+          "level": 24,
+          "faction": "Horde",
+          "objective": "Collect Thicket Raptor Meat inside.",
+          "giver":  { "npc": "Borstan", "zone": "orgrimmar", "sub": "The Drag", "confidence": "verify" },
+          "turnin": { "npc": "Borstan", "zone": "orgrimmar", "sub": "The Drag", "confidence": "verify" }
+        },
+        {
+          "name": "Dragonmaw Rumors",
+          "level": 24,
+          "faction": "Horde",
+          "chain": "leads to Open the Maw",
+          "giver":  { "npc": "Zengu", "zone": "arathi-highlands", "sub": "Hammerfall", "confidence": "verify" },
+          "turnin": { "npc": "Deathstalker Agent", "zone": "wetlands", "sub": "At the instance entrance", "x": 53.2, "y": 65.8, "confidence": "verify" }
+        },
+        {
+          "name": "Open the Maw",
+          "level": 24,
+          "faction": "Horde",
+          "objective": "Kill Dragonmaw forces inside.",
+          "giver":  { "npc": "Deathstalker Agent", "zone": "wetlands", "sub": "At the instance entrance", "x": 53.2, "y": 65.8, "confidence": "verify" },
+          "turnin": { "npc": "Deathstalker Agent", "zone": "wetlands", "sub": "At the instance entrance", "x": 53.2, "y": 65.8, "confidence": "verify" }
+        },
+        {
+          "name": "Elder Knowledge",
+          "level": 24,
+          "faction": "Horde",
+          "objective": "Starts from a Relic Guardian drop. Reported bugged during beta - check before relying on it.",
+          "giver":  { "npc": "Relic Guardian (drop)", "zone": "inside", "sub": "Inside Excavation Site" },
+          "turnin": { "npc": "Unidentified NPC", "zone": "thunder-bluff", "sub": "Thunder Bluff", "confidence": "verify" }
+        },
+        {
+          "name": "Earthen Echo",
+          "level": 24,
+          "faction": "Horde",
+          "chain": "follows Elder Knowledge",
+          "giver":  { "npc": "Unidentified NPC", "zone": "thunder-bluff", "sub": "Thunder Bluff", "confidence": "verify" },
+          "turnin": { "npc": "Muln Earthfury", "zone": "mulgore", "sub": "Mulgore", "confidence": "verify" }
+        }
+      ]
+    },
+
+    {
+      "slug": "city-of-dalaran",
+      "name": "City of Dalaran",
+      "abbr": "CoD",
+      "rec_level": 28,
+      "range": "28-33",
+      "new_in_forever": true,
+      "entrance": { "zone": "alterac-mountains", "sub": "Horde enter from outside Dalaran; requires a Dalaran Sewer Key", "confidence": "verify" },
+      "bosses": ["(9 encounters, not yet documented)"],
+      "quest_count_note": "No quests documented yet.",
+      "summary": "New in Forever, nine boss encounters, and Horde-accessible from outside Dalaran with a Dalaran Sewer Key - how you obtain the key is not yet documented. Quests, NPCs, rewards and loot were all still unconfirmed as of the Oct 1 2026 beta update.",
+      "stub": true,
+      "quests": []
+    },
+
+    {
+      "slug": "scarlet-monastery",
+      "name": "Scarlet Monastery",
+      "abbr": "SM",
+      "rec_level": 30,
+      "range": "26-45 across four wings",
+      "entrance": { "zone": "tirisfal-glades", "sub": "Northeastern corner", "x": 85.0, "y": 30.0, "confidence": "verify" },
+      "bosses": ["Interrogator Vishas", "Bloodmage Thalnos", "Houndmaster Loksey", "Arcanist Doan", "Herod", "Scarlet Commander Mograine", "High Inquisitor Whitemane"],
+      "quest_count_note": "4 Horde quests in range, plus one at 33. Four wings - Graveyard, Library, Armory, Cathedral - at different levels.",
+      "summary": "Your level-30 target. Four wings at different levels, so it stays useful well past 30. Graveyard is the lowest wing; Library holds Arcanist Doan, who drops the Illusionary Rod. Compendium of the Fallen is restricted to Orc, Tauren and Troll - you qualify.",
+      "gear_note": "Arcanist Doan (Library) drops Illusionary Rod: +44 spell power, +14 crit, +10 Sta, +7 Spi. That is a level 33-34 weapon and your next staff upgrade after Living Root.",
+      "quests": [
+        {
+          "name": "Vorrel's Revenge",
+          "level": 25,
+          "faction": "Horde",
+          "wing": "Graveyard",
+          "objective": "Picked up from Vorrel Sengutz inside the Graveyard wing.",
+          "giver":  { "npc": "Vorrel Sengutz", "zone": "inside", "sub": "SM: Graveyard" },
+          "turnin": { "npc": "Monika Sengutz", "zone": "hillsbrad-foothills", "sub": "Tarren Mill", "x": 62.6, "y": 19.0 }
+        },
+        {
+          "name": "Test of Lore",
+          "level": 25,
+          "faction": "Horde",
+          "wing": "Library",
+          "chain": "requires the seven-quest Test of Faith series",
+          "giver":  { "npc": "Parqual Fintallas", "zone": "undercity", "sub": "The Apothecarium", "x": 57.8, "y": 65.0 },
+          "turnin": { "npc": "Parqual Fintallas", "zone": "undercity", "sub": "The Apothecarium", "x": 57.8, "y": 65.0 }
+        },
+        {
+          "name": "Compendium of the Fallen",
+          "level": 28,
+          "faction": "Horde",
+          "wing": "Library",
+          "class_only": "Orc, Tauren and Troll only - you qualify",
+          "giver":  { "npc": "Sage Truthseeker", "zone": "thunder-bluff", "sub": "Thunder Bluff", "x": 34.8, "y": 47.8 },
+          "turnin": { "npc": "Sage Truthseeker", "zone": "thunder-bluff", "sub": "Thunder Bluff", "x": 34.8, "y": 47.8 }
+        },
+        {
+          "name": "Hearts of Zeal",
+          "level": 30,
+          "faction": "Horde",
+          "wing": "Exterior",
+          "giver":  { "npc": "Master Apothecary Faranell", "zone": "undercity", "sub": "The Apothecarium", "x": 48.6, "y": 69.6 },
+          "turnin": { "npc": "Master Apothecary Faranell", "zone": "undercity", "sub": "The Apothecarium", "x": 48.6, "y": 69.6 }
+        },
+        {
+          "name": "Into the Scarlet Monastery",
+          "level": 33,
+          "faction": "Horde",
+          "wing": "Cathedral, Armory, Library",
+          "objective": "Above your beta cap - listed so you know it exists.",
+          "beyond_cap": true,
+          "giver":  { "npc": "Varimathras", "zone": "undercity", "sub": "Royal Quarter", "x": 56.6, "y": 92.4 },
+          "turnin": { "npc": "Varimathras", "zone": "undercity", "sub": "Royal Quarter", "x": 56.6, "y": 92.4 }
+        }
+      ]
+    }
+  ],
+
+  "excluded": [
+    { "name": "Hall of Thanes",      "rec_level": 13, "zone": "Ironforge",      "reason": "Alliance capital. The Horde counterpart is Ragefire Chasm." },
+    { "name": "The Deadmines",       "rec_level": 16, "zone": "Westfall",       "reason": "Deep Alliance territory. Staff of Westfall is unobtainable for you." },
+    { "name": "Stormwind Stockade",  "rec_level": 23, "zone": "Stormwind City", "reason": "Inside the Alliance capital." },
+    { "name": "Gnomeregan",          "rec_level": 25, "zone": "Dun Morogh",     "reason": "Deep Alliance territory." }
+  ]
+}

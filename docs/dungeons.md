@@ -1,8 +1,10 @@
 # Dungeons
 
-[← Index](../README.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)
+[← Index](index.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)
 
-> **Read this first:** in Forever, dungeon **mob kill XP is way down** and dungeon **quest XP is much higher** 🔶. Walking into a dungeon without its quests wastes the run. Every section below is organised around collecting the quests *before* you go in.
+> **Read this first:** in Forever, dungeon **mob kill XP is way down** and dungeon **quest XP is much higher** 🔶. Walking into a dungeon without its quests wastes the run.
+>
+> This page covers **which dungeon to run when, and how to heal it**. For every quest's giver, turn-in, coordinates and `/way` line, see **[Dungeon Quests](dungeon-quests.md)**.
 
 ---
 
@@ -15,63 +17,25 @@ Your first dungeon, and the Horde counterpart to Alliance's Hall of Thanes. 🔶
 | **Location** | Inside **Orgrimmar** — the Cleft of Shadow |
 | **Level range** | 13–19; minimum 10, recommended ~13–16 🔶 (sources disagree, see below) |
 | **Bosses** | Oggleflint · Taragaman the Hungerer · Jergosh the Invoker · Bazzalan |
-| **Quests** | **6 total** — 5 you collect beforehand, 1 you pick up inside |
+| **Quests** | **5 to collect.** The satchel chain has two parts, so a full clear shows 6 log entries. |
 | **Total quest XP** | ~7,130 🔶 |
 | **Faction** | All RFC quests are Horde-exclusive 🔶 |
 
-### Your count was right — with one asterisk
+### Quests
 
-You said 5 quests: 2 in Thunder Bluff, 2 right outside RFC, 1 in Undercity.
+**5 to collect before you go** — two from Rahauro in Thunder Bluff, two in Orgrimmar, one from Varimathras in Undercity. A sixth log entry appears mid-run: *Searching for the Lost Satchel* turns in to Maur Grimtotem inside the chasm, who hands back *Returning the Lost Satchel* for Thunder Bluff. That second half cannot be picked up in advance.
 
-**That is exactly correct for quests you can collect in advance.** There are **6 total** — the sixth drops inside the dungeon, so you could not have picked it up on a pre-run. Your mental model was sound; the total is just one higher than you thought.
+➜ **[Full quest list, coordinates, `/way` lines and maps → Dungeon Quests: Ragefire Chasm](dungeon-quests.md#ragefire-chasm)**
 
-### The full quest list 🔶
+❓ **Required level is disputed.** One Forever database lists all six at level 9; another at 15–16. Most likely one reports the minimum to accept and the other the recommended level. Check Rahauro at 12 — if the quests are there, take them.
 
-| # | Quest | Giver | Where | Objective |
-|---|---|---|---|---|
-| 1 | **Searching for the Lost Satchel** | **Rahauro** | Elder Rise, **Thunder Bluff** | Find the satchel inside RFC |
-| 2 | **Testing an Enemy's Strength** | **Rahauro** | Elder Rise, **Thunder Bluff** | Kill **Oggleflint** |
-| 3 | **Slaying the Beast** | **Neeru Fireblade** | Cleft of Shadow, **Orgrimmar** — *beside the entrance* | Kill **Taragaman the Hungerer** |
-| 4 | **Hidden Enemies** | **Thrall** | Valley of Wisdom, **Orgrimmar** | Shadow Council chain |
-| 5 | **The Power to Destroy…** | **Varimathras** | Royal Quarter / Apothecarium, **Undercity** | Kill **Jergosh the Invoker** |
-| 6 | **Returning the Lost Satchel** | **Grimtotem Satchel** item, off **Maur Grimtotem** | **Inside RFC** | Return it to Thunder Bluff |
+**On the Undercity trip.** It is a real detour — zeppelin across to the Eastern Kingdoms and back — and worth it, because the quests are where the XP now lives. Two ways to soften it:
 
-Your "2 right outside RFC" = **#3 and #4**, the Orgrimmar pair. Neeru Fireblade is literally beside the entrance in the Cleft of Shadow; Thrall is a short ride away in the Valley of Wisdom.
+- Bundle it. Pick up the Tirisfal flight paths for [Ruins of Lordaeron](#the-ladder) and Scarlet Monastery while you are there. Undercity is also where the **[library book turn-in](gear.md#library-books-the-best-gear-per-effort-in-the-game)** lives — Owen Thadd, Magic Quarter — so grab the Brill book on the way through Tirisfal.
+- [Teleport: Moonglade](travel.md#the-free-flight-home-bunthen-plainswind) is a free ride back to Kalimdor if you end up stranded without gold.
+### Healing RFC as a level 13-16 Resto druid
 
-**#1 and #6 are a chain:** pick up *Searching for the Lost Satchel* in Thunder Bluff, loot the satchel off Maur Grimtotem inside the dungeon, which grants *Returning the Lost Satchel*, which you hand back in Thunder Bluff. So one Thunder Bluff return trip is built into the run.
-
-❓ **Required level is disputed.** One Forever database lists all six at level 9; another lists them at 15–16. Most likely one is reporting the minimum to accept and the other the recommended level. **Check Rahauro at 12** — if the quests are there, take them.
-
-### The pickup run
-
-Do this as one trip, ideally around level 13–15, before you look for a group.
-
-```
-1.  Thunder Bluff — Elder Rise
-       → Rahauro: Searching for the Lost Satchel
-       → Rahauro: Testing an Enemy's Strength
-       → train at the druid trainer while you are here
-
-2.  Orgrimmar  (flight path from Thunder Bluff)
-       → Valley of Wisdom: Thrall — Hidden Enemies
-       → Cleft of Shadow: Neeru Fireblade — Slaying the Beast
-       → grab the Orgrimmar flight path if you do not have it
-       → set hearth here if you are running RFC today
-
-3.  Undercity  (zeppelin from Orgrimmar's tower)
-       → Royal Quarter / Apothecarium: Varimathras — The Power to Destroy…
-       → grab the Undercity flight path while you are there
-
-4.  Back to Orgrimmar → Cleft of Shadow → RFC entrance
-```
-
-**On the Undercity trip.** It is a real detour — zeppelin across to the Eastern Kingdoms and back. It is worth it, because the whole point of Forever's XP change is that these quests are the reward. Two ways to soften it:
-- Bundle it: do Undercity once and pick up the Tirisfal flight paths for [Ruins of Lordaeron](#the-ladder) and Scarlet Monastery later. Undercity is also where the **[library book turn-in](gear.md#library-books--the-best-gear-per-effort-in-the-game)** lives — Owen Thadd, Magic Quarter. Grab the Brill book on your way through Tirisfal.
-- Remember you have [Teleport: Moonglade](travel.md#the-free-flight-home--bunthen-plainswind) as a free ride back to Kalimdor if you end up stranded without gold.
-
-### Healing RFC as a level 13–16 Resto druid
-
-You have Rejuvenation, Regrowth, and Healing Touch. That is enough. See [dungeon healing](rotations.md#dungeon-healing--ragefire-chasm-and-up) for the full priority list. RFC-specific notes:
+You have Rejuvenation, Regrowth, and Healing Touch. That is enough. See [dungeon healing](rotations.md#dungeon-healing-ragefire-chasm-and-up) for the full priority list. RFC-specific notes:
 
 - **Thorns on the tank before every pull.** It scales with spell power in Forever ✅, so it is real damage and it helps the tank hold threat.
 - **Pre-Rejuvenate the tank** before each pull. Single biggest quality-of-life habit.
@@ -88,7 +52,7 @@ You have Rejuvenation, Regrowth, and Healing Touch. That is enough. See [dungeon
 
 Recommended levels, in order. 🔶 Cross-checked across two Forever sources; ❓ exact ranges shift during beta. **New** = added in Forever ✅.
 
-### Your window: levels 13 → 30
+### Your window: levels 13 to 30
 
 | Rec. level | Dungeon | Zone | |
 |---|---|---|---|
@@ -96,7 +60,7 @@ Recommended levels, in order. 🔶 Cross-checked across two Forever sources; ❓
 | 13 | Hall of Thanes | Ironforge | **New** · Alliance-focused |
 | **15** | **Ruins of Lordaeron** | Tirisfal Glades | **New** · **Horde-focused** · 6 bosses, **10 quests (6 Horde)** 🔶 — your second dungeon |
 | 16 | The Deadmines | Westfall | Alliance side, awkward for Horde |
-| **17** | **Wailing Caverns** | The Barrens | Right where you are questing · **[Living Root](gear.md#weapons--your-biggest-slot)** drops here |
+| **17** | **Wailing Caverns** | The Barrens | Right where you are questing · **[Living Root](gear.md#weapons-your-biggest-slot)** drops here |
 | **18** | **Shadowfang Keep** | Silverpine Forest | Horde-accessible · [Odo's Ley Staff, Ghostly Mantle](gear.md#shadowfang-keep-rec-18) |
 | **22** | **Blackfathom Deeps** | Ashenvale | Pairs with Ashenvale questing |
 | 23 | Stormwind Stockade | Stormwind | Alliance city — skip |
@@ -122,7 +86,7 @@ Filtering for what is actually practical as a Tauren:
 30   Scarlet Monastery     Tirisfal Glades      ← four wings, your level-30 target
 ```
 
-**Note the geography.** Ruins of Lordaeron, Shadowfang Keep, and Scarlet Monastery are all reachable from Undercity. That is three dungeons plus the [Varimathras RFC quest](#the-full-quest-list-) on one side of the world — plan a single Eastern Kingdoms trip and get the Undercity and Tirisfal flight paths on it.
+**Note the geography.** Ruins of Lordaeron, Shadowfang Keep, and Scarlet Monastery are all reachable from Undercity. That is three dungeons plus the [Varimathras RFC quest](dungeon-quests.md#ragefire-chasm) on one side of the world — plan a single Eastern Kingdoms trip and get the Undercity and Tirisfal flight paths on it.
 
 ### After 30, for context
 
@@ -151,11 +115,11 @@ Forever adds **9 new dungeons** total 🔶 alongside the returning Classic set.
 ## Dungeon habits, given the XP change
 
 1. **Quests first, always.** The run is worth a fraction of its value without them.
-2. **Once per dungeon.** There is no reason to re-clear for XP — [the kill XP is not there](forever-vs-classic.md#1-dungeon-xp-is-inverted--quests-are-the-payday). Re-run only for gear or a quest you missed.
+2. **Once per dungeon.** There is no reason to re-clear for XP — [the kill XP is not there](forever-vs-classic.md#1-dungeon-xp-is-inverted-quests-are-the-payday). Re-run only for gear or a quest you missed.
 3. **First clears are the big bonus** 🔶 — another reason to arrive properly prepared rather than early and underlevelled.
 4. **Collect quests a level or two early** so you can run the moment a group forms. Nothing wastes a group like a 40-minute quest pickup trip.
 5. **As the healer you are always in demand.** Use that: ask the group to wait while you grab anything you are missing. They will.
 
 ---
 
-[← Index](../README.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)
+[← Index](index.md) · Prev: [Travel](travel.md) · Next: [Gear](gear.md)

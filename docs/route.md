@@ -1,6 +1,6 @@
-# Route: Mulgore → Thunder Bluff → The Barrens
+# Route: Mulgore, Thunder Bluff, The Barrens
 
-[← Index](../README.md) · Prev: [Talents](talents.md) · Next: [Travel](travel.md)
+[← Index](index.md) · Prev: [Talents](talents.md) · Next: [Travel](travel.md)
 
 Zone bands and hub order. Level ranges are 🔶 community-sourced and approximate — treat them as "this hub is appropriate around here," not a gate.
 
@@ -18,13 +18,13 @@ Red Cloud Mesa  →  Camp Narache  →  Bloodhoof Village  →  Northern Mulgore
                                         ┌──────────────────────┴───────┐
                                    Camp Taurajo               (south road)
                                         │
-                                  The Crossroads  ←── your next stop, level 12
+                                  The Crossroads
                                        10–14
 ```
 
 ---
 
-## Mulgore (1–10) — behind you, but for the record
+## Mulgore (1-10)
 
 | Hub | Levels | Notes |
 |---|---|---|
@@ -40,16 +40,16 @@ Red Cloud Mesa  →  Camp Narache  →  Bloodhoof Village  →  Northern Mulgore
 
 ---
 
-## Thunder Bluff (9–10, and you will keep coming back)
+## Thunder Bluff (9-10)
 
 The mandatory city visit. Deliveries, class trials, and the services that make the Barrens workable.
 
-**Things to do every time you are here:**
+**Things to do on every visit:**
 
 | Where | What |
 |---|---|
 | **Elder Rise** | **Druid trainer.** Train every level, no exceptions — see [Breakpoints](breakpoints.md). |
-| **Elder Rise** | **Rahauro** — two of the [Ragefire Chasm quests](dungeons.md#the-pickup-run). Grab them as soon as they appear. |
+| **Elder Rise** | **Rahauro** — two of the [Ragefire Chasm quests](dungeon-quests.md#ragefire-chasm). Grab them as soon as they appear. |
 | Center of the city | **Flight master** — pick up the path, and it is your Moonglade return point. See [Travel](travel.md). |
 | Center | Bank, auction house, reagent vendor |
 | Any rise | Inn — set your hearth here once you are Barrens-bound |
@@ -58,7 +58,7 @@ The mandatory city visit. Deliveries, class trials, and the services that make t
 
 ---
 
-## The Barrens (10–18) — where you are heading now
+## The Barrens (10-18)
 
 The Barrens is enormous and the quests are scattered. The hub order below keeps your travel down.
 
@@ -81,15 +81,15 @@ Grab the **Camp Taurajo** flight path on the way through even if you do not ques
 
 ### Barrens practical notes
 
-- **Wailing Caverns** is in the Barrens, recommended level ~17 🔶. Its entrance is in the Stonetalon-side oasis area. Pick up its quests before you go — [dungeon quest XP is where the reward is now](forever-vs-classic.md#1-dungeon-xp-is-inverted--quests-are-the-payday).
+- **Wailing Caverns** is in the Barrens, recommended level ~17 🔶. Its entrance is in the Stonetalon-side oasis area. Pick up its quests before you go — [dungeon quest XP is where the reward is now](forever-vs-classic.md#1-dungeon-xp-is-inverted-quests-are-the-payday).
 - **Plainstriders and raptors hit harder than they look.** This is where [multi-mob discipline](rotations.md#multi-mob) starts mattering. Pull with Moonfire at max range so you do not aggro a second one.
 - **The Crossroads is contested on PvP realms.** If you are on one, expect interruptions.
 - **Cook your meat.** The Barrens is wall-to-wall food mobs, and cooked food is +5% kill XP while well fed 🔶.
-- **Three [library books](gear.md#books-in-your-zones-) are in the Barrens** — Sludge Fen (56.3, 8.8), Ratchet (62.7, 36.3), and the cave at Lushwater Oasis (52.8, 54.7). Ten books buys an ilvl-25 neck with no level requirement; twenty buys a +6 Int / +10 spell power ring. Pick them up as you pass.
+- **Three [library books](gear.md#books-in-your-zones) are in the Barrens** — Sludge Fen (56.3, 8.8), Ratchet (62.7, 36.3), and the cave at Lushwater Oasis (52.8, 54.7). Ten books buys an ilvl-25 neck with no level requirement; twenty buys a +6 Int / +10 spell power ring. Pick them up as you pass.
 
 ---
 
-## After the Barrens (18–30) — the outline
+## After the Barrens (18-30)
 
 Once the Barrens runs dry around 17–18:
 
@@ -98,7 +98,7 @@ Once the Barrens runs dry around 17–18:
 | **Stonetalon Mountains** | 15–20 | West out of the northern Barrens. Sun Rock Retreat is the Horde hub. |
 | **Ashenvale** | 18–25 | Splintertree Post. Also gets you near **Blackfathom Deeps** (~22 🔶). |
 | **Thousand Needles** | 20–25 | South from the Barrens. Freewind Post. Good Tauren-adjacent questing. |
-| **Hillsbrad / Arathi via Undercity** | 20–30 | If you are crossing to the Eastern Kingdoms for the [Undercity RFC quest](dungeons.md#the-pickup-run), you may as well quest there. |
+| **Hillsbrad / Arathi via Undercity** | 20–30 | If you are crossing to the Eastern Kingdoms for the [Undercity RFC quest](dungeon-quests.md#ragefire-chasm), you may as well quest there. |
 | **Desolace / Dustwallow** | 25–30 | Thins out. Dungeon quests carry more of the load here. |
 
 ❓ **This section is a Classic-based outline, not verified against Forever.** Forever added and changed zones (new zone **Riverglades** sits at mid-30s–40s ✅), so the 18–30 band may have new options. Update this table as you actually level through it — see [Open Questions](open-questions.md).
@@ -109,12 +109,12 @@ Once the Barrens runs dry around 17–18:
 
 1. **Never travel empty.** Accept every quest in a hub before you leave it, even the ones you will not finish — turn-in radius overlaps more than you expect.
 2. **Batch your turn-ins.** Thunder Bluff trips should always bundle: trainer + Rahauro + turn-ins + bank + hearth reset.
-3. **Check the auction house for a caster staff** every time you are in Thunder Bluff or Ratchet. Weapons carry spell damage and healing from level 10 in Forever ✅, so your staff is your biggest slot — see [Gear](gear.md#weapons--your-biggest-slot).
+3. **Check the auction house for a caster staff** every time you are in Thunder Bluff or Ratchet. Weapons carry spell damage and healing from level 10 in Forever ✅, so your staff is your biggest slot — see [Gear](gear.md#weapons-your-biggest-slot).
 4. **Train on every single level.** Rank upgrades to Rejuvenation and Regrowth are your mana budget. A druid two ranks behind on heals feels like a broken class.
 5. **Pick up every flight path you walk past**, even in zones you are not questing in. Paths are only purchasable at the node.
-6. **Log out in an inn or at a [campfire](forever-vs-classic.md#3-rested-xp-moved-outdoors--campfires)** so rested XP is always accruing.
-7. **Do dungeons once, with all quests in hand.** Never twice for XP — [the kill XP is not there anymore](forever-vs-classic.md#1-dungeon-xp-is-inverted--quests-are-the-payday).
+6. **Log out in an inn or at a [campfire](forever-vs-classic.md#3-rested-xp-moved-outdoors-campfires)** so rested XP is always accruing.
+7. **Do dungeons once, with all quests in hand.** Never twice for XP — [the kill XP is not there anymore](forever-vs-classic.md#1-dungeon-xp-is-inverted-quests-are-the-payday).
 
 ---
 
-[← Index](../README.md) · Prev: [Talents](talents.md) · Next: [Travel](travel.md)
+[← Index](index.md) · Prev: [Talents](talents.md) · Next: [Travel](travel.md)

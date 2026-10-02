@@ -1,14 +1,12 @@
 # Rotations
 
-[← Index](../README.md) · Prev: [The Druid Kit](druid-kit.md) · Next: [Talents](talents.md)
+[← Index](index.md) · Prev: [The Druid Kit](druid-kit.md) · Next: [Talents](talents.md)
 
 ---
 
-## One correction to the plan first
+## Dots go on first, not last
 
-Your stated plan was: *Wrath until they're in melee range, then apply dots and switch to melee.*
-
-**Put the dots on first, not last.** Two reasons:
+The intuitive order — Wrath until the mob is in melee range, *then* apply dots and switch to attacks — wastes damage. Front-load instead. Two reasons:
 
 1. **Moonfire is instant.** Using it as your opener costs you nothing in travel time and starts the DoT ticking during the 2–3 seconds the mob spends running at you. Applying it *after* contact means you paid a global cooldown for a DoT that is now competing with your melee swings.
 2. **A DoT applied at 80% health ticks for the whole fight. One applied at 50% ticks for half of it.** Front-loading is free damage.
@@ -17,7 +15,7 @@ The corrected shape is: **dots and Wrath on approach → melee after contact.** 
 
 ---
 
-## Phase 0 — Upkeep (before you pull anything)
+## Phase 0: Upkeep (before you pull anything)
 
 ```
 Mark of the Wild        (long duration, top it off in town)
@@ -28,7 +26,7 @@ Thorns discipline is the highest-value habit in this doc. In Forever it scales w
 
 ---
 
-## Phase 1 — The pull (2–3 casts, at range)
+## Phase 1: The pull (2-3 casts, at range)
 
 ```
 1.  Moonfire         instant · pulls · DoT starts now
@@ -57,7 +55,7 @@ In Forever, Rejuvenation can **crit** ✅, which makes this better than it was i
 
 ---
 
-## Phase 2 — The bear phase
+## Phase 2: The bear phase
 
 Shift the moment it reaches melee, unless the mob is nearly dead (see the decision rule below).
 
@@ -83,7 +81,7 @@ Let Thorns, Moonfire, and Rejuvenation do the rest.
 
 ---
 
-## Phase 3 — Between pulls
+## Phase 3: Between pulls
 
 ```
 Shift out of form
@@ -130,7 +128,7 @@ Thorns hitting two attackers is double Thorns damage. This is genuinely efficien
 
 ---
 
-## Dungeon healing — Ragefire Chasm and up
+## Dungeon healing: Ragefire Chasm and up
 
 You are the healer. Different job, different buttons. See [Dungeons](dungeons.md) for the RFC specifics.
 
@@ -144,7 +142,7 @@ Rejuvenation            on the tank, pre-pull
 
 Pre-HoTting the tank before every pull is the whole difference between a comfortable RFC and a stressful one.
 
-### During the pull — priority, not a rotation
+### During the pull: priority, not a rotation
 
 | Situation | Button |
 |---|---|
@@ -169,4 +167,4 @@ No Innervate (40), no Tranquility worth using at this level, no Wild Growth (40)
 
 ---
 
-[← Index](../README.md) · Prev: [The Druid Kit](druid-kit.md) · Next: [Talents](talents.md)
+[← Index](index.md) · Prev: [The Druid Kit](druid-kit.md) · Next: [Talents](talents.md)

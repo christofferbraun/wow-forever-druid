@@ -1,6 +1,6 @@
 # Breakpoints
 
-[← Index](../README.md) · Prev: [Gear](gear.md) · Next: [Open Questions](open-questions.md)
+[← Index](index.md) · Prev: [Gear](gear.md) · Next: [Open Questions](open-questions.md)
 
 The levels where something actually changes. Everything else is just a bigger health bar.
 
@@ -22,18 +22,18 @@ If you remember nothing else:
 
 ---
 
-## Level by level, 10 → 30
+## Level by level, 10 to 30
 
 | Level | Points | Unlock | Action |
 |---|---|---|---|
-| **10** | 1 | **Bear Form** · **Heeding the Call** → Moonglade chain → `Teleport: Moonglade` 🔶 | Do the class quest. Start [Naturalist](talents.md#levels-1015-points-16-tier-1). Caster weapons now give spell damage 🔶 — re-check your greens. |
+| **10** | 1 | **Bear Form** · **Heeding the Call** → Moonglade chain → `Teleport: Moonglade` 🔶 | Do the class quest. Start [Naturalist](talents.md#levels-10-15-points-1-6-tier-1). Caster weapons now give spell damage 🔶 — re-check your greens. |
 | 11 | 2 | — | Talent milestone at 11 points spent 🔶 (not level 11 — see below) |
-| **12** | 3 | **Regrowth** | ← **you are here.** Regrowth becomes your dungeon workhorse. [RFC quests](dungeons.md#the-pickup-run) may already be available from Rahauro. |
+| **12** | 3 | **Regrowth** | Regrowth becomes your dungeon workhorse. [RFC quests](dungeon-quests.md#ragefire-chasm) may already be available from Rahauro. |
 | 13 | 4 | Rank upgrades ❓ | **[Ragefire Chasm](dungeons.md#ragefire-chasm) opens** (rec. 13). Do the pickup run. |
 | 14 | 5 | — | |
-| 15 | 6 | **[Ruins of Lordaeron](dungeons.md#the-ladder)** opens (rec. 15) — new, Horde-focused, **6 Horde quests** | Finish Naturalist 5/5. Take **[The Stitcher](gear.md#quest-reward-gear-horde-1--20)** from the quest chain. |
+| 15 | 6 | **[Ruins of Lordaeron](dungeons.md#the-ladder)** opens (rec. 15) — new, Horde-focused, **6 Horde quests** | Finish Naturalist 5/5. Take **[The Stitcher](gear.md#quest-reward-gear-horde-1-to-20)** from the quest chain. |
 | **16** | **7** | **Restoration Tier 2 opens** | Start `Gift of Nature` — the biggest healing talent in the tree |
-| 17 | 8 | **[Wailing Caverns](dungeons.md#the-ladder)** opens — it is in the Barrens | **Priority run: [Living Root](gear.md#weapons--your-biggest-slot)** drops off Verdan the Everliving. Biggest upgrade in your bracket. |
+| 17 | 8 | **[Wailing Caverns](dungeons.md#the-ladder)** opens — it is in the Barrens | **Priority run: [Living Root](gear.md#weapons-your-biggest-slot)** drops off Verdan the Everliving. Biggest upgrade in your bracket. |
 | 18 | 9 | **[Shadowfang Keep](dungeons.md#the-ladder)** opens | Barrens starts thinning — plan Stonetalon/Ashenvale. [Odo's Ley Staff + Ghostly Mantle](gear.md#shadowfang-keep-rec-18). |
 | 19 | 10 | — | |
 | **20** | **11** | **CAT FORM** · **current beta cap** | Much better single-target melee than Bear. Also the 11-point talent milestone 🔶. |
@@ -65,28 +65,28 @@ This is the cleanest way to see why 30 is a natural stopping point: it is a mile
 
 ---
 
-## Beta calendar breakpoints ✅
+## Beta calendar breakpoints
 
 | When | What | What it means for you |
 |---|---|---|
 | Now | Cap **20** | You have 8 levels of headroom. Get [RFC](dungeons.md#ragefire-chasm) done and reach 20 comfortably. |
 | Later in beta | Cap raises to **30** | Your Nature's Swiftness run. Plan the Ashenvale/Thousand Needles stretch now. |
 | **Oct 21, 2026** | Beta ends | Deadline for the level-30 goal. |
-| **Nov 4, 2026** | Launch | Assume [1-silver respecs](forever-vs-classic.md#2-respecs-cost-1-silver-during-beta-) end here. Do all build experimenting before this date. |
+| **Nov 4, 2026** | Launch | Assume [1-silver respecs](forever-vs-classic.md#2-respecs-cost-1-silver-during-beta) end here. Do all build experimenting before this date. |
 
 ---
 
 ## Things not to forget at any level
 
 - **Train every level.** Rank upgrades to Rejuvenation, Regrowth, and Healing Touch are your mana budget.
-- **Re-apply Thorns.** It is [damage now](rotations.md#phase-0--upkeep-before-you-pull-anything).
-- **Log out rested** — inn or [campfire](forever-vs-classic.md#3-rested-xp-moved-outdoors--campfires).
-- **Spend Legacy Points.** You get 16 per character; the rested-XP perks compound on a leveling character. See [the Legacy system](forever-vs-classic.md#5-the-legacy-system-).
+- **Re-apply Thorns.** It is [damage now](rotations.md#phase-0-upkeep-before-you-pull-anything).
+- **Log out rested** — inn or [campfire](forever-vs-classic.md#3-rested-xp-moved-outdoors-campfires).
+- **Spend Legacy Points.** You get 16 per character; the rested-XP perks compound on a leveling character. See [the Legacy system](forever-vs-classic.md#5-the-legacy-system).
 - **Buy every flight path you walk past.** See [Travel](travel.md#flight-paths-to-collect).
 - **Cook your meat** — +5% kill XP while well fed 🔶.
-- **Upgrade your staff.** Weapons carry spell damage and healing from level 10 ✅ — it is your biggest slot. See [Gear](gear.md#weapons--your-biggest-slot).
-- **Pick up [library books](gear.md#library-books--the-best-gear-per-effort-in-the-game).** Ten gets an ilvl-25 neck, twenty gets a +6 Int / +10 spell power ring, neither with a level requirement.
+- **Upgrade your staff.** Weapons carry spell damage and healing from level 10 ✅ — it is your biggest slot. See [Gear](gear.md#weapons-your-biggest-slot).
+- **Pick up [library books](gear.md#library-books-the-best-gear-per-effort-in-the-game).** Ten gets an ilvl-25 neck, twenty gets a +6 Int / +10 spell power ring, neither with a level requirement.
 
 ---
 
-[← Index](../README.md) · Prev: [Gear](gear.md) · Next: [Open Questions](open-questions.md)
+[← Index](index.md) · Prev: [Gear](gear.md) · Next: [Open Questions](open-questions.md)

@@ -1,25 +1,25 @@
 # Forever vs Classic
 
-[← Index](../README.md) · Next: [The Druid Kit](druid-kit.md)
+[← Index](index.md) · Next: [The Druid Kit](druid-kit.md)
 
 Forever is built on Classic, so almost all your Classic muscle memory transfers. These are the changes that actually change *decisions* while leveling 1–30.
 
 ---
 
-## 1. Dungeon XP is inverted — quests are the payday
+## 1. Dungeon XP is inverted: quests are the payday
 
 This is the single most important rule change for you.
 
 - Dungeon **mob kill XP is way down**. 🔶
 - Dungeon **quest XP is much, much higher**. 🔶 A dev interview confirmed quest XP is meant to outweigh kills.
 
-**What this means:** never walk into a dungeon without its quests. Clearing Ragefire Chasm without the quest log is close to a waste of an hour; clearing it with all six is a chunk of a level. This is why the [RFC pickup run](dungeons.md#the-pickup-run) is written out as a route rather than a list.
+**What this means:** never walk into a dungeon without its quests. Clearing Ragefire Chasm without the quest log is close to a waste of an hour; clearing it with all six is a chunk of a level. This is why the [RFC pickup run](dungeon-quests.md#ragefire-chasm) is written out as a route rather than a list.
 
 It also means dungeon spam is no longer a leveling strategy. One clear per dungeon, quests in hand, then back outside.
 
 ---
 
-## 2. Respecs cost 1 silver during beta ✅
+## 2. Respecs cost 1 silver during beta
 
 From Blizzard's beta dev notes. This is the thing that makes your whole Resto question easy — you are not locked into anything right now. Experiment freely, and treat every build in [Talents](talents.md) as reversible for pocket change.
 
@@ -27,7 +27,7 @@ Assume this reverts to normal escalating costs at launch. Do your experimenting 
 
 ---
 
-## 3. Rested XP moved outdoors — campfires
+## 3. Rested XP moved outdoors: campfires
 
 - Placing a **Basic Campfire** creates a campsite; sit at it to accrue rested XP in the wild. 🔶
 - You can **craft and cast while waiting** at a campfire ✅ (refined in the Sept 24 notes) — so it isn't dead time.
@@ -44,7 +44,7 @@ Most cooked dishes give **+5% XP from kills** while well fed. 🔶 Note: *kills 
 
 ---
 
-## 5. The Legacy system ✅
+## 5. The Legacy system
 
 Account-wide horizontal progression, new to Forever.
 
@@ -57,7 +57,7 @@ Account-wide horizontal progression, new to Forever.
 
 ---
 
-## 6. Druid changes ✅🔶
+## 6. Druid changes
 
 Full detail in [The Druid Kit](druid-kit.md) and [Talents](talents.md). The headline numbers:
 
@@ -85,7 +85,7 @@ Talent trees were reworked substantially: of 51 druid talents, **13 are new, 33 
 
 ---
 
-## Beta timeline ✅
+## Beta timeline
 
 | Date | Event |
 |---|---|
@@ -98,4 +98,4 @@ Your level-30 goal lines up exactly with the final beta cap — and, convenientl
 
 ---
 
-[← Index](../README.md) · Next: [The Druid Kit](druid-kit.md)
+[← Index](index.md) · Next: [The Druid Kit](druid-kit.md)

@@ -1,6 +1,6 @@
 # Talents
 
-[← Index](../README.md) · Prev: [Rotations](rotations.md) · Next: [Route](route.md)
+[← Index](index.md) · Prev: [Rotations](rotations.md) · Next: [Route](route.md)
 
 ---
 
@@ -29,11 +29,9 @@ The good news is that this is a *clean* stopping point. Nature's Swiftness lands
 
 ## The honest answer on solo Resto
 
-You asked whether Resto-first with a utility dip is fine, so long as you can full-respec to Resto at 30 without wrecking solo leveling.
+**Resto-first works, and a full respec at 30 is almost certainly unnecessary.**
 
-**Short answer: yes — and you almost certainly will not need the respec.**
-
-Three things make this work in Forever specifically:
+Three things make it work in Forever specifically:
 
 1. **Respecs cost 1 silver during beta** ✅. The question is nearly moot right now. Flip builds as often as you like; it costs less than a stack of bread. Do your experimenting *before* launch, when it is free.
 2. **Wrath got buffed ~50% and Thorns now scales with spell power** ✅. Resto's damage problem is materially smaller than it was in Classic. Your kill speed as a pure Resto druid in Forever is noticeably better than the Classic equivalent.
@@ -43,7 +41,7 @@ Three things make this work in Forever specifically:
 
 **The fix for kill speed is not talents, it is [rotation](rotations.md).** Thorns uptime, front-loaded dots, and bear-phase discipline buy you far more than 5 points in Improved Wrath would.
 
-### So what do I actually do?
+### The call
 
 **Recommendation: go Resto the whole way. No respec needed at 30.**
 
@@ -53,25 +51,25 @@ Take the build below. It is pure Resto, it never needs correcting, and it arrive
 
 ---
 
-## The build: pure Resto, levels 10 → 30
+## The build: pure Resto, levels 10 to 30
 
 Point order matters more than the endpoint. This order front-loads the things that help you solo.
 
-### Levels 10–15 (points 1–6): Tier 1
+### Levels 10-15 (points 1-6): Tier 1
 
 | Points | Talent | Why here |
 |---|---|---|
 | 1–5 | **Naturalist** (5) | Shorter Healing Touch *and* more damage 🔶. The best possible first five points for a solo Resto leveler — it helps both halves of your job. |
 | 6 | **Nature's Focus** (1/5) | Start it. Fewer interrupted casts while something chews on you. |
 
-### Levels 16–20 (points 7–11): Tier 2 opens
+### Levels 16-20 (points 7-11): Tier 2 opens
 
 | Points | Talent | Why here |
 |---|---|---|
 | 7–9 | **Gift of Nature** (3/5) | Straight healing effectiveness. Every heal you cast, forever. Highest-value healing talent in the tree. |
 | 10–11 | **Natural Shapeshifter** (2/3) | −10% per rank on shift cost. You shift constantly while soloing; this is a mana talent disguised as a utility talent. |
 
-### Levels 21–25 (points 12–16): to Swiftmend
+### Levels 21-25 (points 12-16): to Swiftmend
 
 | Points | Talent | Why here |
 |---|---|---|
@@ -79,7 +77,7 @@ Point order matters more than the endpoint. This order front-loads the things th
 | 14–15 | **Improved Rejuvenation** (2/3) | Rejuvenation is your most-cast spell both soloing and healing. It can crit now ✅. |
 | **16** | **Swiftmend** (1) | Requires 15 spent. Instant heal off a HoT, and Forever made it heal for the HoT's *full duration* 🔶. Take it the moment you can. |
 
-### Levels 26–30 (points 17–21): to Nature's Swiftness
+### Levels 26-30 (points 17-21): to Nature's Swiftness
 
 | Points | Talent | Why here |
 |---|---|---|
@@ -134,7 +132,7 @@ With Wrath already buffed ~50% ✅, five points of cast-time reduction on top is
 
 ---
 
-## Full Restoration tree reference 🔶
+## Full Restoration tree reference
 
 From Forever talent calculators — ❓ verify ranks and numbers in-game, these shift during beta.
 
@@ -164,7 +162,7 @@ From Forever talent calculators — ❓ verify ranks and numbers in-game, these 
 **Capstone**
 - **Wild Growth** (1) — 30 points — instant; heals the target and their party for 336 over 7 sec, party members within 43 yards of the target
 
-### Balance / Feral tiers 1–2, for dip planning 🔶
+### Balance and Feral tiers 1-2, for dip planning
 
 **Balance T1:** Improved Wrath (5) · Genesis (5) · Moonglow (3) · Improved Moonfire (2)
 **Balance T2:** Nature's Majesty (2) · Nature's Reach (2) · Improved Entangling Roots (3) · Nature's Splendor (1)
@@ -176,4 +174,4 @@ Note that `Omen of Clarity` and `Nature's Grasp` are **trained, not talented** i
 
 ---
 
-[← Index](../README.md) · Prev: [Rotations](rotations.md) · Next: [Route](route.md)
+[← Index](index.md) · Prev: [Rotations](rotations.md) · Next: [Route](route.md)

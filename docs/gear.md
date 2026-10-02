@@ -1,6 +1,6 @@
-# Gear, 1 → 20
+# Gear, 1 to 20
 
-[← Index](../README.md) · Prev: [Dungeons](dungeons.md) · Next: [Breakpoints](breakpoints.md)
+[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Breakpoints](breakpoints.md)
 
 > **Standing caveat for this whole document.** The Forever loot databases say it themselves: *"Loot is still being discovered. Drops for the original dungeons come from the Classic Era loot tables and may have moved."* 🔶 Blizzard has also said quest rewards and dungeon drops are under active review with new rewards and improved sets 🔶. Treat every specific item below as a lead to check on Wowhead's Forever database, not a promise. The **principles** in the first two sections are solid; the item lists will drift.
 
@@ -24,7 +24,7 @@ Forever reworked caster itemization, and it lands directly on your Resto-while-s
 
 One caster set now does both jobs. A +45 healing staff is also a +15 spell damage staff. This is the strongest argument in the doc that [leveling as Resto works](talents.md#the-honest-answer-on-solo-resto) — Blizzard specifically changed itemization to make it work.
 
-**Your weapon is now your biggest single upgrade.** See [Weapons](#weapons--your-biggest-slot). Do not vendor caster staves.
+**Your weapon is now your biggest single upgrade.** See [Weapons](#weapons-your-biggest-slot). Do not vendor caster staves.
 
 ---
 
@@ -41,7 +41,7 @@ What the stats actually do in Forever 🔶:
 | **Strength** | 2 attack power for melee DPS classes, 1 for everyone else |
 | **Spell Damage / Spell Healing** | Modifiers applied per-spell via coefficients |
 
-### Your priority, 12 → 30
+### Your priority, 12 to 30
 
 **Solo leveling:** `Spell Damage (incl. 1/3 of Healing) > Intellect > Stamina > Spirit`
 
@@ -49,7 +49,7 @@ What the stats actually do in Forever 🔶:
 
 **In practice, take the same items for both.** The overlap is near-total now.
 
-### One nuance the general guides get wrong for you
+### One nuance the general guides get wrong
 
 Community stat guides rank **Spirit** highly for healers, and the reasoning is explicit: *"all Healer specs have some form of in-combat Mana Regeneration talent available."* 🔶
 
@@ -59,11 +59,11 @@ For a druid, that talent is **`Reflection`** — and [the build skips it before 
 
 ---
 
-## Weapons — your biggest slot
+## Weapons: your biggest slot
 
 Because spell damage and healing now appear on weapons from level 10 ✅, your staff is worth more than any two armour pieces. Upgrade it aggressively.
 
-### Caster staff progression 🔶
+### Caster staff progression
 
 | Level | Staff | Stats | Source |
 |---|---|---|---|
@@ -98,11 +98,11 @@ Because spell damage and healing now appear on weapons from level 10 ✅, your s
 
 ### Feral note
 
-Cat and Bear Form now **scale with weapon damage** in Forever 🔶, so weapon DPS matters even in form. You are caster-primary, so still take the spell staff — but this is why you should not carry a low-DPS "healing wand and off-hand" setup and expect the [bear phase](rotations.md#phase-2--the-bear-phase) to work.
+Cat and Bear Form now **scale with weapon damage** in Forever 🔶, so weapon DPS matters even in form. You are caster-primary, so still take the spell staff — but this is why you should not carry a low-DPS "healing wand and off-hand" setup and expect the [bear phase](rotations.md#phase-2-the-bear-phase) to work.
 
 ---
 
-## Library books — the best gear-per-effort in the game
+## Library books: the best gear-per-effort in the game
 
 This is new to Forever and it is badly underrated. Books are scattered across the world; you turn them in individually to your faction's librarian, and milestone turn-ins give you jewellery.
 
@@ -119,7 +119,7 @@ Both rewards are **item level 25 with no level requirement and no class requirem
 
 **Philanthropist's Ring at +6 Intellect and +10 spell power is better than anything else you will see in a ring slot before 25** — and it costs no dungeon group, no drop roll, and no competition. Take the ring, not the rogue loop.
 
-### Books in your zones 🔶
+### Books in your zones
 
 Three of them are in the Barrens, exactly where you are heading:
 
@@ -131,13 +131,13 @@ Three of them are in the Barrens, exactly where you are heading:
 | Tirisfal Glades | The Apothecary's Metaphysical Primer | Brill (59.4, 52.3) |
 | Silverpine Forest | The Dalaran Digest, Vol. 23 | Ambermill (63.5, 63.1) |
 
-**Bundle this with the RFC pickup run.** You are already going to Undercity for [Varimathras](dungeons.md#the-pickup-run). Grab the Brill book on the way in, hand in whatever you have to Owen Thadd in the same building district, and pick up the Ratchet and Lushwater books while you quest the Barrens. See [Travel](travel.md#flight-paths-to-collect).
+**Bundle this with the RFC pickup run.** You are already going to Undercity for [Varimathras](dungeon-quests.md#ragefire-chasm). Grab the Brill book on the way in, hand in whatever you have to Owen Thadd in the same building district, and pick up the Ratchet and Lushwater books while you quest the Barrens. See [Travel](travel.md#flight-paths-to-collect).
 
 ---
 
-## Quest reward gear, Horde, 1 → 20
+## Quest reward gear, Horde, 1 to 20
 
-**Honest position:** there is no complete Horde quest-reward list for Forever yet, and the published best-in-slot lists are heavily Alliance- and Tailoring-weighted. Below is what is confirmed Horde-relevant. Expect to fill this in yourself.
+There is no complete Horde quest-reward list for Forever yet, and the published best-in-slot lists are heavily Alliance- and Tailoring-weighted. Below is what is confirmed Horde-relevant. Expect to fill this in yourself.
 
 | Item | Slot | Quest | Level |
 |---|---|---|---|
@@ -147,9 +147,9 @@ Three of them are in the Barrens, exactly where you are heading:
 | **Scholarly Pendant** | Neck | *Friend of the Library* (10 books) | none 🔶 |
 | **Philanthropist's Ring** | Finger | *Greater Friend of the Library* (20 books) | none 🔶 |
 
-### From the Ragefire Chasm quests 🔶
+### From the Ragefire Chasm quests
 
-Three of the six [RFC quests](dungeons.md#the-full-quest-list-) reward gear, and you get to pick:
+Three of the six [RFC quests](dungeon-quests.md#ragefire-chasm) reward gear, and you get to pick:
 
 | Quest | Caster/healer option | Also offers |
 |---|---|---|
@@ -179,7 +179,7 @@ Decent odds on three caster pieces. Robe of Evocation is the one to hope for.
 
 ### Ruins of Lordaeron (rec. 15)
 
-New in Forever: **6 bosses, 10 quests — 6 of them Horde**, plus a rare spawn 🔶. Given [how Forever pays dungeon quests](forever-vs-classic.md#1-dungeon-xp-is-inverted--quests-are-the-payday), six Horde quests makes this the highest-value run in your bracket after RFC.
+New in Forever: **6 bosses, 10 quests — 6 of them Horde**, plus a rare spawn 🔶. Given [how Forever pays dungeon quests](forever-vs-classic.md#1-dungeon-xp-is-inverted-quests-are-the-payday), six Horde quests makes this the highest-value run in your bracket after RFC.
 
 | Item | Slot | Boss |
 |---|---|---|
@@ -224,13 +224,13 @@ But note: in Forever, equipping the full 5-piece **Druid of the Fang** set perma
 
 ## How the sources actually compare
 
-The comparison you asked for, ranked by **value per hour** rather than raw stats:
+Ranked by **value per hour** rather than raw stats:
 
 | Source | Stats | Reliability | Verdict |
 |---|---|---|---|
 | **Dungeon quest rewards** | Dungeon-tier | **Guaranteed**, and you pick from 2–3 options | **Best in the game right now.** You get dungeon-level stats with no drop roll — *and* Forever moved the XP into these same quests. Double payoff. Always prioritise these over hoping for drops. |
 | **Library books** | ilvl 25, no level req | **Guaranteed**, zero competition | **Best gear-per-effort.** +6 Int / +10 spell power on a ring you can wear at 12 beats anything else in the slot. Only cost is walking. |
-| **Dungeon boss drops** | Highest raw stats | 16–36% per boss, contested by 4 others | Worth *targeting* only for standout items. In your bracket that is **Living Root** and basically nothing else. Do not re-run for drops — [the XP is not there](forever-vs-classic.md#1-dungeon-xp-is-inverted--quests-are-the-payday). |
+| **Dungeon boss drops** | Highest raw stats | 16–36% per boss, contested by 4 others | Worth *targeting* only for standout items. In your bracket that is **Living Root** and basically nothing else. Do not re-run for drops — [the XP is not there](forever-vs-classic.md#1-dungeon-xp-is-inverted-quests-are-the-payday). |
 | **Outdoor quest rewards** | ~1 tier behind dungeon gear | **Guaranteed** | Reliable baseline. Take the caster option; Forever is actively improving these 🔶. |
 | **Auction house greens** | Varies wildly — a good roll beats quest gear | Costs gold, no time | **Genuinely underrated at 12–20.** The beta economy is flooded and low-level greens sell for near-nothing. Check Thunder Bluff and Ratchet for a caster staff every time you are in town. Often the fastest upgrade available. |
 | **Crafted (Tailoring)** | The published BiS list is full of it — Pristine set, Filigreed Pristine Gown/Leggings | Needs the profession or the AH | You are not a tailor. Buy the pieces off the AH instead of rolling the profession for it. |
@@ -244,11 +244,11 @@ Stop optimising past that. At 12–20 the stat totals are small enough that a we
 
 ---
 
-## A practical plan, 12 → 20
+## A practical plan, 12 to 20
 
 1. **Now (12):** check the Thunder Bluff and Ratchet auction houses for a cheap caster staff with Int or spell power. Likely your biggest immediate upgrade.
 2. **Barrens questing:** pick up the three Barrens books — Sludge Fen, Ratchet, Lushwater Oasis cave. Take the caster option on every quest reward.
-3. **13–15 — the [RFC pickup run](dungeons.md#the-pickup-run):** grab the Brill book on the way through Tirisfal, hand your books to Owen Thadd in the Undercity Magic Quarter while you are there for Varimathras. Run RFC; take Staff of Orgrimmar, Ghastly Trousers, Featherbead Bracers.
+3. **13–15 — the [RFC pickup run](dungeon-quests.md#ragefire-chasm):** grab the Brill book on the way through Tirisfal, hand your books to Owen Thadd in the Undercity Magic Quarter while you are there for Varimathras. Run RFC; take Staff of Orgrimmar, Ghastly Trousers, Featherbead Bracers.
 4. **15 — Ruins of Lordaeron:** six Horde quests. Take **The Stitcher**. Compare both staves that drop.
 5. **17 — Wailing Caverns:** **this is the Living Root run.** Go with quests in hand and tell your group you want the staff off Verdan.
 6. **18 — Shadowfang Keep:** *Deathstalkers in Shadowfang* for Ghostly Mantle; compare Odo's Ley Staff against Living Root.
@@ -256,4 +256,4 @@ Stop optimising past that. At 12–20 the stat totals are small enough that a we
 
 ---
 
-[← Index](../README.md) · Prev: [Dungeons](dungeons.md) · Next: [Breakpoints](breakpoints.md)
+[← Index](index.md) · Prev: [Dungeons](dungeons.md) · Next: [Breakpoints](breakpoints.md)

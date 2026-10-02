@@ -1,12 +1,12 @@
 # Travel
 
-[← Index](../README.md) · Prev: [Route](route.md) · Next: [Dungeons](dungeons.md)
+[← Index](index.md) · Prev: [Route](route.md) · Next: [Dungeons](dungeons.md)
 
 Druids get the best low-level travel toolkit in the game, and as a Horde druid you get a free one-way teleport loop that nobody else has. Set it up early.
 
 ---
 
-## Teleport: Moonglade — the free teleport
+## Teleport: Moonglade
 
 **How you get it:** at level 10 you take the druid class quest **Heeding the Call**. Its follow-up, **Moonglade**, teaches you **Teleport: Moonglade the moment you accept it** — you do not have to complete anything first. 🔶
 
@@ -18,9 +18,9 @@ You then travel to Moonglade and speak with **Dendrite Starblaze** in the villag
 
 ---
 
-## The free flight home — Bunthen Plainswind
+## The free flight home: Bunthen Plainswind
 
-This is the part you flagged, and it is correct:
+The useful part:
 
 > **In Nighthaven, near the center of town, is Bunthen Plainswind — the Thunder Bluff flight master. The flight from Moonglade to Thunder Bluff is free.** 🔶
 
@@ -40,7 +40,7 @@ Anywhere in the world
 | Situation | Use the loop? |
 |---|---|
 | Deep in Kalimdor, hearth on cooldown, need Thunder Bluff | **Yes.** This is exactly what it is for. |
-| Stranded in the Eastern Kingdoms with no gold | **Yes** — Teleport: Moonglade is the cheapest way back to Kalimdor you own. Very relevant for the [Undercity RFC quest](dungeons.md#the-pickup-run). |
+| Stranded in the Eastern Kingdoms with no gold | **Yes** — Teleport: Moonglade is the cheapest way back to Kalimdor you own. Very relevant for the [Undercity RFC quest](dungeon-quests.md#ragefire-chasm). |
 | You need to be in Thunder Bluff in under two minutes | **No.** Hearth, or pay for a normal flight. |
 | Hearthstone is up and set to Thunder Bluff | **No.** Just hearth. |
 
@@ -72,7 +72,7 @@ Your hearth is a real resource. Plan it around what you are doing.
 
 Thunder Bluff is vertical and the lifts are slow. Two things worth knowing:
 
-- The **flight master and the main services sit on the central rise**; Elder Rise (druid trainer, **Rahauro** for [RFC quests](dungeons.md#the-pickup-run)) is a separate rise and a separate lift.
+- The **flight master and the main services sit on the central rise**; Elder Rise (druid trainer, **Rahauro** for [RFC quests](dungeon-quests.md#ragefire-chasm)) is a separate rise and a separate lift.
 - **You can jump down** from the rises to the ground with Bear Form's health buffer absorbing the fall — much faster than the lift when you are heading out of town. ❓ Verify fall damage at your level before you try it from the top.
 
 ---
@@ -95,7 +95,7 @@ Buy every path you walk past. Prices are trivial and you cannot buy them remotel
 
 **For the Undercity RFC quest** you need to cross to the Eastern Kingdoms: Orgrimmar → zeppelin tower → Undercity. Pick up the **Undercity** flight path while you are there, and the **Tirisfal** paths if you plan to run [Ruins of Lordaeron](dungeons.md#the-ladder) or Scarlet Monastery later.
 
-**Make that one trip do four jobs:** Varimathras' RFC quest, the **[library book turn-in](gear.md#library-books--the-best-gear-per-effort-in-the-game)** with Owen Thadd in the Magic Quarter (73.4, 33.0), the Brill book in Tirisfal (59.4, 52.3), and the flight paths. Undercity is the highest-value detour in your level range.
+**Make that one trip do four jobs:** Varimathras' RFC quest, the **[library book turn-in](gear.md#library-books-the-best-gear-per-effort-in-the-game)** with Owen Thadd in the Magic Quarter (73.4, 33.0), the Brill book in Tirisfal (59.4, 52.3), and the flight paths. Undercity is the highest-value detour in your level range.
 
 ---
 
@@ -105,4 +105,4 @@ Buy every path you walk past. Prices are trivial and you cannot buy them remotel
 
 ---
 
-[← Index](../README.md) · Prev: [Route](route.md) · Next: [Dungeons](dungeons.md)
+[← Index](index.md) · Prev: [Route](route.md) · Next: [Dungeons](dungeons.md)
