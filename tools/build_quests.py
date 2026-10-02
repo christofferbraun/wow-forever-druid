@@ -279,17 +279,25 @@ def build():
     # at-a-glance
     A("## At a glance")
     A("")
-    A("| Rec. | Dungeon | Zone | Horde quests | Entrance |")
-    A("|---|---|---|---|---|")
+    A("**To collect** = quests you can pick up before you enter. **Starts inside** = quests granted "
+      "by an item or NPC within the dungeon, which you cannot get in advance. Class-only quests and "
+      "anything above level 30 are excluded from both counts.")
+    A("")
+    A("| Rec. | Dungeon | Zone | To collect | Starts inside | Entrance |")
+    A("|---|---|---|---|---|---|")
     for d in data["dungeons"]:
-        n = len([q for q in d["quests"] if q.get("faction") in ("Horde", "Both")
-                 and not q.get("class_only")])
+        usable = [q for q in d["quests"] if q.get("faction") in ("Horde", "Both")
+                  and not q.get("class_only") and not q.get("beyond_cap")]
+        n = len([q for q in usable if q.get("giver", {}).get("zone") != "inside"])
+        ins = len([q for q in usable if q.get("giver", {}).get("zone") == "inside"])
         ent = d.get("entrance") or {}
         zn = zones.get(ent.get("zone"), {}).get("name", "?")
         ec = "`%s`" % way(zn, ent["x"], ent["y"]) if has_coords(ent) else "%s ❓" % zn
         nm = "**[%s](#%s)**" % (d["name"], d["slug"])
-        A("| %d | %s | %s | %s | %s |"
-          % (d["rec_level"], nm, zn, ("—" if d.get("stub") else str(n)), ec))
+        A("| %d | %s | %s | %s | %s | %s |"
+          % (d["rec_level"], nm, zn,
+             ("—" if d.get("stub") else str(n)),
+             ("—" if d.get("stub") else str(ins)), ec))
     A("")
     A("---")
     A("")

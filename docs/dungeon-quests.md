@@ -27,17 +27,19 @@ Coordinates are community-sourced from Forever databases as of 2026-10-02 🔶. 
 
 ## At a glance
 
-| Rec. | Dungeon | Zone | Horde quests | Entrance |
-|---|---|---|---|---|
-| 13 | **[Ragefire Chasm](#ragefire-chasm)** | Orgrimmar | 6 | `/way Orgrimmar 52.8 49.6` |
-| 15 | **[Ruins of Lordaeron](#ruins-of-lordaeron)** | Undercity | 6 | Undercity ❓ |
-| 17 | **[Wailing Caverns](#wailing-caverns)** | The Barrens | 7 | `/way The Barrens 46 36.3` |
-| 18 | **[Shadowfang Keep](#shadowfang-keep)** | Silverpine Forest | 3 | `/way Silverpine Forest 44.5 68` |
-| 22 | **[Blackfathom Deeps](#blackfathom-deeps)** | Ashenvale | 5 | `/way Ashenvale 14.5 14.6` |
-| 24 | **[Razorfen Kraul](#razorfen-kraul)** | The Barrens | 5 | `/way The Barrens 43 90` |
-| 26 | **[Excavation Site: Wetlands](#excavation-site-wetlands)** | Wetlands | 5 | `/way Wetlands 53.2 65.8` |
-| 28 | **[City of Dalaran](#city-of-dalaran)** | Alterac Mountains | — | Alterac Mountains ❓ |
-| 30 | **[Scarlet Monastery](#scarlet-monastery)** | Tirisfal Glades | 4 | `/way Tirisfal Glades 85 30` |
+**To collect** = quests you can pick up before you enter. **Starts inside** = quests granted by an item or NPC within the dungeon, which you cannot get in advance. Class-only quests and anything above level 30 are excluded from both counts.
+
+| Rec. | Dungeon | Zone | To collect | Starts inside | Entrance |
+|---|---|---|---|---|---|
+| 13 | **[Ragefire Chasm](#ragefire-chasm)** | Orgrimmar | 5 | 1 | `/way Orgrimmar 52.8 49.6` |
+| 15 | **[Ruins of Lordaeron](#ruins-of-lordaeron)** | Undercity | 4 | 2 | Undercity ❓ |
+| 17 | **[Wailing Caverns](#wailing-caverns)** | The Barrens | 6 | 1 | `/way The Barrens 46 36.3` |
+| 18 | **[Shadowfang Keep](#shadowfang-keep)** | Silverpine Forest | 3 | 0 | `/way Silverpine Forest 44.5 68` |
+| 22 | **[Blackfathom Deeps](#blackfathom-deeps)** | Ashenvale | 2 | 3 | `/way Ashenvale 14.5 14.6` |
+| 24 | **[Razorfen Kraul](#razorfen-kraul)** | The Barrens | 3 | 2 | `/way The Barrens 43 90` |
+| 26 | **[Excavation Site: Wetlands](#excavation-site-wetlands)** | Wetlands | 4 | 1 | `/way Wetlands 53.2 65.8` |
+| 28 | **[City of Dalaran](#city-of-dalaran)** | Alterac Mountains | — | — | Alterac Mountains ❓ |
+| 30 | **[Scarlet Monastery](#scarlet-monastery)** | Tirisfal Glades | 2 | 1 | `/way Tirisfal Glades 85 30` |
 
 ---
 
